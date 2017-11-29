@@ -1,0 +1,629 @@
+Trying: NWI
+Trying: The
+Trying: text analysis company Text
+Trying: text analysis company
+Trying: text analysis
+Trying: text
+Trying: analysis company Text Analysis
+Trying: analysis company Text
+Trying: analysis company
+Trying: analysis
+Trying: company Text Analysis International
+Trying: company Text Analysis
+Trying: company Text
+Trying: company
+Trying: Text Analysis International
+	Found: Text Analysis International
+Trying: TAI
+	Found: TAI
+Trying: has bought the American
+Trying: has bought the
+Trying: has bought
+Trying: has
+Trying: bought the American Medical
+Trying: bought the American
+Trying: bought the
+Trying: bought
+Trying: the American Medical Records
+Trying: the American Medical
+Trying: the American
+Trying: the
+Trying: American Medical Records Processing
+	Found: American Medical Records Processing
+Trying: AMRP
+	Found: AMRP
+Trying: for more than
+Trying: for more
+Trying: for
+Trying: more than
+Trying: more
+Trying: than
+Trying: million dollars
+Trying: million
+Trying: dollars
+Trying: Avi Meyers
+Trying: Avi
+Trying: Meyers
+Trying: CEO and president of
+Trying: CEO and president
+Trying: CEO and
+Trying: CEO
+Trying: and president of TAI
+Trying: and president of
+Trying: and president
+Trying: and
+Trying: president of TAI
+Trying: president of
+Trying: president
+Trying: of TAI
+Trying: of
+Trying: TAI
+	Found: TAI
+Trying: said on Friday that
+Trying: said on Friday
+Trying: said on
+Trying: said
+Trying: on Friday that they
+Trying: on Friday that
+Trying: on Friday
+Trying: on
+Trying: Friday that they bought
+Trying: Friday that they
+Trying: Friday that
+Trying: Friday
+Trying: that they bought the
+Trying: that they bought
+Trying: that they
+Trying: that
+Trying: they bought the
+Trying: they bought
+Trying: they
+Trying: bought the
+Trying: bought
+Trying: the
+Trying: based AMRP for
+Trying: based AMRP
+Trying: based
+Trying: AMRP for
+Trying: AMRP
+	Found: AMRP
+Trying: for
+Trying: million in cash and
+Trying: million in cash
+Trying: million in
+Trying: million
+Trying: in cash and
+Trying: in cash
+Trying: in
+Trying: cash and
+Trying: cash
+Trying: and
+Trying: million in assumed debt
+Trying: million in assumed
+Trying: million in
+Trying: million
+Trying: in assumed debt
+Trying: in assumed
+Trying: in
+Trying: assumed debt
+Trying: assumed
+Trying: debt
+Trying: Founded in
+Trying: Founded
+Trying: in
+Trying: AMRP is the largest
+Trying: AMRP is the
+Trying: AMRP is
+Trying: AMRP
+	Found: AMRP
+Trying: is the largest text
+Trying: is the largest
+Trying: is the
+Trying: is
+Trying: the largest text processing
+Trying: the largest text
+Trying: the largest
+Trying: the
+Trying: largest text processing firm
+Trying: largest text processing
+Trying: largest text
+Trying: largest
+Trying: text processing firm in
+Trying: text processing firm
+Trying: text processing
+Trying: text
+Trying: processing firm in the
+Trying: processing firm in
+Trying: processing firm
+Trying: processing
+Trying: firm in the country
+Trying: firm in the
+Trying: firm in
+Trying: firm
+Trying: in the country for
+Trying: in the country
+Trying: in the
+Trying: in
+Trying: the country for medical
+Trying: the country for
+Trying: the country
+Trying: the
+Trying: country for medical records
+Trying: country for medical
+Trying: country for
+Trying: country
+Trying: for medical records and
+Trying: for medical records
+Trying: for medical
+Trying: for
+Trying: medical records and journals
+Trying: medical records and
+Trying: medical records
+Trying: medical
+Trying: records and journals and
+Trying: records and journals
+Trying: records and
+Trying: records
+Trying: and journals and has
+Trying: and journals and
+Trying: and journals
+Trying: and
+Trying: journals and has been
+Trying: journals and has
+Trying: journals and
+Trying: journals
+Trying: and has been using
+Trying: and has been
+Trying: and has
+Trying: and
+Trying: has been using TAI
+Trying: has been using
+Trying: has been
+Trying: has
+Trying: been using TAI's VisualText
+Trying: been using TAI
+Trying: been using
+Trying: been
+Trying: using TAI's VisualText technology
+Trying: using TAI's VisualText
+Trying: using TAI
+Trying: using
+Trying: TAI's VisualText technology almost
+Trying: TAI's VisualText technology
+Trying: TAI's VisualText
+Trying: TAI
+	Found: TAI
+Trying: VisualText technology almost exclusively
+Trying: VisualText technology almost
+Trying: VisualText technology
+Trying: VisualText
+Trying: technology almost exclusively for
+Trying: technology almost exclusively
+Trying: technology almost
+Trying: technology
+Trying: almost exclusively for
+Trying: almost exclusively
+Trying: almost
+Trying: exclusively for
+Trying: exclusively
+Trying: for
+Trying: years
+Trying: The sale of the
+Trying: The sale of
+Trying: The sale
+Trying: The
+Trying: sale of the medical
+Trying: sale of the
+Trying: sale of
+Trying: sale
+Trying: of the medical records
+Trying: of the medical
+Trying: of the
+Trying: of
+Trying: the medical records processing
+Trying: the medical records
+Trying: the medical
+Trying: the
+Trying: medical records processing company
+Trying: medical records processing
+Trying: medical records
+Trying: medical
+Trying: records processing company for
+Trying: records processing company
+Trying: records processing
+Trying: records
+Trying: processing company for more
+Trying: processing company for
+Trying: processing company
+Trying: processing
+Trying: company for more than
+Trying: company for more
+Trying: company for
+Trying: company
+Trying: for more than
+Trying: for more
+Trying: for
+Trying: more than
+Trying: more
+Trying: than
+Trying: million is above analysts
+Trying: million is above
+Trying: million is
+Trying: million
+Trying: is above analysts' predictions
+Trying: is above analysts
+Trying: is above
+Trying: is
+Trying: above analysts' predictions but
+Trying: above analysts' predictions
+Trying: above analysts
+Trying: above
+Trying: analysts' predictions but is
+Trying: analysts' predictions but
+Trying: analysts' predictions
+Trying: analysts
+Trying: predictions but is not
+Trying: predictions but is
+Trying: predictions but
+Trying: predictions
+Trying: but is not surprising
+Trying: but is not
+Trying: but is
+Trying: but
+Trying: is not surprising given
+Trying: is not surprising
+Trying: is not
+Trying: is
+Trying: not surprising given TAI
+Trying: not surprising given
+Trying: not surprising
+Trying: not
+Trying: surprising given TAI's strong
+Trying: surprising given TAI
+Trying: surprising given
+Trying: surprising
+Trying: given TAI's strong position
+Trying: given TAI's strong
+Trying: given TAI
+Trying: given
+Trying: TAI's strong position in
+Trying: TAI's strong position
+Trying: TAI's strong
+Trying: TAI
+	Found: TAI
+Trying: strong position in the
+Trying: strong position in
+Trying: strong position
+Trying: strong
+Trying: position in the market
+Trying: position in the
+Trying: position in
+Trying: position
+Trying: in the market place
+Trying: in the market
+Trying: in the
+Trying: in
+Trying: the market place
+Trying: the market
+Trying: the
+Trying: market place
+Trying: market
+Trying: place
+Trying: In
+Trying: alone
+Trying: TAI has acquired
+Trying: TAI has
+Trying: TAI
+	Found: TAI
+Trying: has acquired
+Trying: has
+Trying: acquired
+Trying: and
+Trying: Company of Maryland for
+Trying: Company of Maryland
+Trying: Company of
+Trying: Company
+Trying: of Maryland for a
+Trying: of Maryland for
+Trying: of Maryland
+Trying: of
+Trying: Maryland for a total
+Trying: Maryland for a
+Trying: Maryland for
+Trying: Maryland
+Trying: for a total of
+Trying: for a total
+Trying: for a
+Trying: for
+Trying: a total of
+Trying: a total
+Trying: a
+Trying: total of
+Trying: total
+Trying: of
+Trying: million dollars
+Trying: million
+Trying: dollars
+Trying: With this last purchase
+Trying: With this last
+Trying: With this
+Trying: With
+Trying: this last purchase
+Trying: this last
+Trying: this
+Trying: last purchase
+Trying: last
+Trying: purchase
+Trying: TAI has substantially strengthened
+Trying: TAI has substantially
+Trying: TAI has
+Trying: TAI
+	Found: TAI
+Trying: has substantially strengthened its
+Trying: has substantially strengthened
+Trying: has substantially
+Trying: has
+Trying: substantially strengthened its hold
+Trying: substantially strengthened its
+Trying: substantially strengthened
+Trying: substantially
+Trying: strengthened its hold on
+Trying: strengthened its hold
+Trying: strengthened its
+Trying: strengthened
+Trying: its hold on the
+Trying: its hold on
+Trying: its hold
+Trying: its
+Trying: hold on the medical
+Trying: hold on the
+Trying: hold on
+Trying: hold
+Trying: on the medical text
+Trying: on the medical
+Trying: on the
+Trying: on
+Trying: the medical text processing
+Trying: the medical text
+Trying: the medical
+Trying: the
+Trying: medical text processing field
+Trying: medical text processing
+Trying: medical text
+Trying: medical
+Trying: text processing field and
+Trying: text processing field
+Trying: text processing
+Trying: text
+Trying: processing field and hopes
+Trying: processing field and
+Trying: processing field
+Trying: processing
+Trying: field and hopes to
+Trying: field and hopes
+Trying: field and
+Trying: field
+Trying: and hopes to centralize
+Trying: and hopes to
+Trying: and hopes
+Trying: and
+Trying: hopes to centralize the
+Trying: hopes to centralize
+Trying: hopes to
+Trying: hopes
+Trying: to centralize the processing
+Trying: to centralize the
+Trying: to centralize
+Trying: to
+Trying: centralize the processing of
+Trying: centralize the processing
+Trying: centralize the
+Trying: centralize
+Trying: the processing of medical
+Trying: the processing of
+Trying: the processing
+Trying: the
+Trying: processing of medical records
+Trying: processing of medical
+Trying: processing of
+Trying: processing
+Trying: of medical records nationally
+Trying: of medical records
+Trying: of medical
+Trying: of
+Trying: medical records nationally
+Trying: medical records
+Trying: medical
+Trying: records nationally
+Trying: records
+Trying: nationally
+Trying: With its latest purchase
+Trying: With its latest
+Trying: With its
+Trying: With
+Trying: its latest purchase of
+Trying: its latest purchase
+Trying: its latest
+Trying: its
+Trying: latest purchase of the
+Trying: latest purchase of
+Trying: latest purchase
+Trying: latest
+Trying: purchase of the medical
+Trying: purchase of the
+Trying: purchase of
+Trying: purchase
+Trying: of the medical records
+Trying: of the medical
+Trying: of the
+Trying: of
+Trying: the medical records processing
+Trying: the medical records
+Trying: the medical
+Trying: the
+Trying: medical records processing company
+Trying: medical records processing
+Trying: medical records
+Trying: medical
+Trying: records processing company
+Trying: records processing
+Trying: records
+Trying: processing company
+Trying: processing
+Trying: company
+Trying: TAI's stock is up
+Trying: TAI's stock is
+Trying: TAI's stock
+Trying: TAI
+	Found: TAI
+Trying: stock is up
+Trying: stock is
+Trying: stock
+Trying: is up
+Trying: is
+Trying: up
+Trying: from
+Trying: a share to
+Trying: a share
+Trying: a
+Trying: share to
+Trying: share
+Trying: to
+Trying: TAI's stock has recently
+Trying: TAI's stock has
+Trying: TAI's stock
+Trying: TAI
+	Found: TAI
+Trying: stock has recently remained
+Trying: stock has recently
+Trying: stock has
+Trying: stock
+Trying: has recently remained steady
+Trying: has recently remained
+Trying: has recently
+Trying: has
+Trying: recently remained steady due
+Trying: recently remained steady
+Trying: recently remained
+Trying: recently
+Trying: remained steady due to
+Trying: remained steady due
+Trying: remained steady
+Trying: remained
+Trying: steady due to its
+Trying: steady due to
+Trying: steady due
+Trying: steady
+Trying: due to its lawsuit
+Trying: due to its
+Trying: due to
+Trying: due
+Trying: to its lawsuit with
+Trying: to its lawsuit
+Trying: to its
+Trying: to
+Trying: its lawsuit with MiasmaCraft
+Trying: its lawsuit with
+Trying: its lawsuit
+Trying: its
+Trying: lawsuit with MiasmaCraft whose
+Trying: lawsuit with MiasmaCraft
+Trying: lawsuit with
+Trying: lawsuit
+Trying: with MiasmaCraft whose text
+Trying: with MiasmaCraft whose
+Trying: with MiasmaCraft
+Trying: with
+Trying: MiasmaCraft whose text processing
+Trying: MiasmaCraft whose text
+Trying: MiasmaCraft whose
+Trying: MiasmaCraft
+Trying: whose text processing IDE
+Trying: whose text processing
+Trying: whose text
+Trying: whose
+Trying: text processing IDE Miasma
+Trying: text processing IDE
+Trying: text processing
+Trying: text
+Trying: processing IDE Miasma
+Trying: processing IDE
+Trying: processing
+Trying: IDE Miasma
+Trying: IDE
+Trying: Miasma
+Trying: Text bears a striking
+Trying: Text bears a
+Trying: Text bears
+Trying: Text
+Trying: bears a striking resemblance
+Trying: bears a striking
+Trying: bears a
+Trying: bears
+Trying: a striking resemblance to
+Trying: a striking resemblance
+Trying: a striking
+Trying: a
+Trying: striking resemblance to TAI
+Trying: striking resemblance to
+Trying: striking resemblance
+Trying: striking
+Trying: resemblance to TAI's VisualText
+Trying: resemblance to TAI
+Trying: resemblance to
+Trying: resemblance
+Trying: to TAI's VisualText
+Trying: to TAI
+Trying: to
+Trying: TAI's VisualText
+Trying: TAI
+	Found: TAI
+Trying: VisualText
+Trying: TAI is vigorously defending
+Trying: TAI is vigorously
+Trying: TAI is
+Trying: TAI
+	Found: TAI
+Trying: is vigorously defending its
+Trying: is vigorously defending
+Trying: is vigorously
+Trying: is
+Trying: vigorously defending its patent
+Trying: vigorously defending its
+Trying: vigorously defending
+Trying: vigorously
+Trying: defending its patent on
+Trying: defending its patent
+Trying: defending its
+Trying: defending
+Trying: its patent on VisualText
+Trying: its patent on
+Trying: its patent
+Trying: its
+Trying: patent on VisualText
+Trying: patent on
+Trying: patent
+Trying: on VisualText
+Trying: on
+Trying: VisualText
+Trying: NLP
+Trying: and the Conceptual Grammar
+Trying: and the Conceptual
+Trying: and the
+Trying: and
+Trying: the Conceptual Grammar
+Trying: the Conceptual
+Trying: the
+Trying: Conceptual Grammar
+Trying: Conceptual
+Trying: Grammar
+Trying: More than they know
+Trying: More than they
+Trying: More than
+Trying: More
+Trying: than they know
+Trying: than they
+Trying: than
+Trying: they know
+Trying: they
+Trying: know
