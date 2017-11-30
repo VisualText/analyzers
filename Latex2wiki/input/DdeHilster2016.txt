@@ -1,0 +1,177 @@
+%%
+%% This is file `template-8d.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% template.raw (with options: `8d')
+%%
+%% Template for the LaTeX class aipproc.
+%%
+%% (C) 1998,2000,2001 American Institute of Physics and Frank Mittelbach
+%% All rights reserved
+%%
+%%
+%% $Id: template.raw,v 1.12 2005/07/06 19:22:14 frank Exp $
+%%
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SELECT THE LAYOUT
+%%
+%% The class supports further options.
+%% See aipguide.pdf for details.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[proceedings.tex]{subfiles}
+
+\def\mytitle{Earth Expansion Major Objections Solved}
+\def\myauthors{David Scott de Hilster}
+ 
+\setcounter{section}{0}
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FRONTMATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\begin{document}
+
+\title{\mytitle}
+
+\keywords {expansion tectonics, atomic structure}
+
+\author{David de Hilster}{
+  address={22936 Ironwedge Dr, Boca Raton, FL 33433, david@dehilster.com
+}
+}
+
+\begin{abstract}
+The two main objections to Expansion Tectonics by those in the scientific community are lack of a mechanism for expansion and mass increase, and the presence of subduction. This paper will show that these are now solved.
+\end{abstract}
+
+\maketitle
+\fancyhead[CE]{David de Hilster: Earth Expansion Major Objections Solved}
+\autotoc{\mytitle}{\myauthors}
+\index{de Hilster, David}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MAINMATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cnpsheading\section{Introduction}
+In this author's mind, the evidence for and expanding and growing earth is overwhelming. The most compelling evidence being that when the seafloor bed (see figure \ref{fig:crustageposter}) is removed by youngest to oldest, all the continents on the earth fit together with almost no modification (see figure \ref{fig:SmallerOrbSides}). The chances of that happening are described by Stephen Hurrell, author of "Dinasaurs and the Expanding Earth" \cite{hurrell-dinasaurs}:
+
+"My original estimate for the Expanding Earth forming by chance alone was massively conservative. It isn't less than one chance in a million, or billion, or even a trillion. It's less than one chance in an octillion: a number so large I needed to look up its name. Now consider that the real Earth has multiple coastlines which all need to fit together. The probability of this happening by chance is so small it is virtually impossible." \cite{hurrell-probability}
+
+\begin{figure}
+\centering
+\includegraphics[height=0.17\textheight]{DaviddeHilster/crustageposter}
+\caption{The map that changed everything: The NOSC mapping of seafloor bed ages in bands of 10s of millions of years.}
+\label{fig:crustageposter}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height=0.30\textheight]{DaviddeHilster/SmallerOrbSides}
+\caption{Four sides of the earth as shown once all the seafloor bed has been removed. You can see that the continents fit together in recognizable shapes without a lot of modification.}
+\label{fig:SmallerOrbSides}
+\end{figure}
+
+\cnpsheading\section{Subduction}
+One of the arguments we hear about why expansion tectonics is not the correct theory is that there is proof of subduction, and if the earth has been expanding, there could be no subduction. Subduction is where one tectonic plate does underneath another plate. Plate tectonics states that the radius of the earth stays the same, and that there is a conveyor belt that creates and destroys the seabed as see in figure \ref{fig:Subduction}.
+
+\begin{figure}
+\centering
+\includegraphics[height=0.18\textheight]{DaviddeHilster/Subduction}
+\caption{Subduction is where tectonic plates dive underneath another plate.}
+\label{fig:Subduction}
+\end{figure}
+
+In the "excitement" of a new wave of supporters who are discovering expansion tectonics, many proponents of expansion tectonics wrongfully claim that subduction does not exist. It in fact does exist. Here are the confirmed subduction areas on the globe \ref{fig:KnownSubductionZones}.
+
+\begin{figure}
+\centering
+\includegraphics[height=0.20\textheight]{DaviddeHilster/KnownSubductionZones}
+\caption{The known subduction zones are not enough to keep the earth at a constant radius. This is a problem for mainstream plate tectonics \cite{carey}}
+\label{fig:KnownSubductionZones}
+\end{figure}
+
+Expansion tectonics has some places where subduction will occur, although not like the plate tectonics would describe. The earth is not equally expanding. In fact, the bottom of the earth is expanding much more than the top, thus the reason for more land in the northern hemisphere (figure \ref{fig:NorthernHemisphere}) than the southern (figure \ref{fig:SouthernHemisphere}). 
+
+\begin{figure}
+\centering
+\includegraphics[height=0.20\textheight]{DaviddeHilster/NorthernHemisphere}
+\caption{Northern hemisphere above the equator}
+\label{fig:NorthernHemisphere}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height=0.20\textheight]{DaviddeHilster/SouthernHemisphere}
+\caption{Southern hemisphere below the equator}
+\label{fig:SouthernHemisphere}
+\end{figure}
+
+In figure \ref{fig:SubductionFromExpansion}, you can see where the earth is expanding starting on the west coast of Canada and the United States and works it way down the west coast of the Americas. The arrows represent the extent of the expansion with with being non-subducted expansion, and red arrows being subducted expansion. You can see that the expansion in north america to the east is going to have to subduct.
+
+\begin{figure}
+\centering
+\includegraphics[height=0.20\textheight]{DaviddeHilster/SubductionFromExpansion}
+\caption{The arrows represent expansion with the read arrows representing where subduction should be occurring. This is only two of many examples.}
+\label{fig:SubductionFromExpansion}
+\end{figure}
+
+Without exhaustively looking at all the scenarios, it is easy to see that earth's expansion is not uniform and subduction not only can be a part of the expansion model, it can help predict those subductions perhaps even better than the plate tectonics model.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[height=0.35\textheight]{DaviddeHilster/MassIncrease}
+\caption{Atoms are blown apart in the sun and all suns into G1 particles and nucleons which are reconstructed inside the earth}
+\label{fig:MassIncrease}
+\end{figure}
+
+\cnpsheading\section{Mechanisms for Expansion}
+It is important to remember that although the term "Expansion Tectonics" in words only describes "size", the phrase itself is meant to include mass increase. Dr. James Maxlow, considered by many as the top expansion geologist in the world, coined the phrase but also includes mass increase as a part of that term as well. Maxlow has found geological evidence of mass increase. This is very important. It is not simply expansion.
+
+There have been many mechanism that have been proposed for expansion including prime matter particles.
+
+\cnpsheading\subsection{New Solution to Mass Increase}
+The author of this paper and his father, have come up with a solution to how mass increase happens \cite{dehilster-universe-hack-3}. The Particle Model of the Universe describes the universe as particles and the G1 or gravitron particle level 1 being the particle for light, gravity, the electron cloud, and electricity. Atomic structure is made up of nucleons (protons and neutrons), and G1 particles that are smaller and more numerous than the electron. Electrons don't exist in this model. Magnetic fields and charge are actually the results of clouds of moving G1 particles.
+
+Mass increase happens when suns blow atoms apart and spew G1 particles and nucleons in all directions. The magnetic field of the earth are G1 particles that are circulating around the earth through the poles which then capture other G1 particles and nucleons that recreate atoms inside the earth.
+
+\cnpsheading\section{Conclusion}
+The two major objections to expansion tectonics is the presence of known subduction and no mechanism for mass increase of the expansion. Given the fact that the earth does not expand uniformly, and with the new Particle Model of the universe able to explain mass increase, both of those objections have been answered.
+
+\bibliographystyle{aipproc}
+
+\begin{thebibliography}{3}
+
+\bibitem{hurrell-dinasaurs}
+Stephen Hurrell,
+\emph{Dinosaurs and the Expanding Earth.}
+, Third Edition9780952 260372011.
+
+\bibitem{carey}
+Samuel Carey
+\emph{Theories of the Earth and Universe: A History of Dogma in the Earth Sciences.},
+\\texttt{www.RelativityOfLight.com},
+ Stanford University Press; 1 edition (March 1, 1988)
+
+\bibitem{hurrell-probability}
+Stephen Hurrell,
+\emph{Probablity Analysis: Expanding Earth Theory is True.}
+\\texttt{http://www.dinox.org/propee.html}
+, 2013.
+
+\bibitem{dehilster-universe-hack-3}
+Robert de Hilster, David de Hilster,
+\emph{Universe Hack 3.0 - A Particle Model of the Entire Universe.}
+The John Chappell Natural Philosophy Society
+, 2016.
+
+\end{thebibliography}
+
+\end{document}

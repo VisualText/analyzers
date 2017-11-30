@@ -1,0 +1,19 @@
+
+\begin{figure}[!]\label{fig:cameron09a}
+\centering
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics[width=14cm]{CameronRebigsol04/Fig09a}}
+\caption{caption}
+\end{figure}
+
+From a state shown in figure \ref{fig:cameron08} to a state shown in figure \ref{fig:cameron09a} for the nowadays galaxy of Milky Way, there is a long history of transition similar to what is illustrated in figure \ref{fig:cameron07c} and figure \ref{fig:cameron07d}.  Today, after the long history of transition, with a stable rotation that the Milky Way has evolved into, we can say that the Milky Way has two types of rotation arms:  the straight arms, such as what is shown as the Galactic Bar at the galaxy center, and the spiral arms, such as what are shown in areas outside where the Galactic Bar is sweeping.    Those objects get recruited as one of the members in the Bar may move with all kinds of orbit in different shape with respect to the dead center of the Bar, from lanky ellipses to near perfect circles.  Their orbital planes may even form any angle with the ecliptic, from lying perfectly within it to being perpendicular to it.      
+
+The analysis of figure \ref{fig:cameron05} would easily suggest to us that the spiral rotation arms may not be an unchanged establishment over time.   Somewhere there may be some material chunk that finds itself having entered a region with speed higher than necessary to balance the gravity field there and thus advanced to join the next arm.  On the contrary, some may find itself not flying with enough angular momentum to keep up with the peers around it and gradually lag behind and eventually fall into the arm that is coming after.  However, given the movement stability of the formation that has been established today, all these migrations can only happen in an extremely slow process.   It is this slow process that has introduced the formation of some minor spiral rotation arms in the Milky Way's rotation disk found in figure \ref{fig:cameron09a}.
+
+Figure \label{fig:cameron09a} shows two major spiral arms for the entire Milky Way, one flowing out from each end of the rotating Galactic Bar.  Although two distinct bars are identified in the photo at the central region of the Milky Way, the close proximity between them allows us to consider them working as one.   It seems common among rotating galaxies that fundamentally two spiral arms are found for the entire galaxy, with one spiral to be dragged following each end of the rotation bar (figures \ref{fig:cameron09b}, \ref{fig:cameron09c}, \ref{fig:cameron09d}, \ref{fig:cameron09e}). In astronomical study, we may have also encountered many photos about rotating galaxy in which the feature of only two major spiral arms are not obvious although a single core is prominent.  Given enough time, they will eventually evolved into a galaxy that would have two major spiral arms with one bar connecting in between.
+
+\begin{figure}\label{fig:cameron09b}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics{CameronRebigsol04/Fig09b}}
+\caption{caption}
+\end{figure}

@@ -1,0 +1,141 @@
+%%
+%% This is file `template-8d.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% template.raw (with options: `8d')
+%%
+%% Template for the LaTeX class aipproc.
+%%
+%% (C) 1998,2000,2001 American Institute of Physics and Frank Mittelbach
+%% All rights reserved
+%%
+%%
+%% $Id: template.raw,v 1.12 2005/07/06 19:22:14 frank Exp $
+%%
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SELECT THE LAYOUT
+%%
+%% The class supports further options.
+%% See aipguide.pdf for details.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[proceedings2016.tex]{subfiles}
+
+\def\mytitle{Special Relativity is Not Needed}
+\def\myauthors{Robert de Hilster}
+ 
+\setcounter{section}{0}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FRONTMATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\begin{document}
+
+\title{\mytitle}
+\index{de Hilster, Robert}
+
+\keywords {relativity, light}
+
+\author{Robert de Hilster}{
+  address={23344 Carolwood Ln, Boca Raton, FL 33428
+  
+  robert@dehilster.com}
+}
+
+\begin{abstract}
+Many people have proved to themselves that Special Relativity is wrong. They know about the paradoxes, they know about the bad assumptions, they know about the mathematical errors. And yet it is still hard to provide absolute proof that it is wrong. After all, there are many others that are proving it right. This paper describes two things that proved to me that Special Relativity is wrong. The model is wrong and the interpretation of what each observer sees is wrong. My conclusion is that the transformation of length, time, and mass are not needed.
+\end{abstract}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MAINMATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cnpsheading\section{Johnston's Model}
+There is a very good explanation of the development of the Special Relativity (SR) equation given in the reference \cite{Johnston}. Figures \ref{fig:SR1a} and \ref{fig:SR1b} show the models that are used by Robert Johnston. Quoting Johnston:
+
+\textit{"Imagine a spacecraft passing the Earth with velocity v. On the spacecraft is an observer and an apparatus that will flash a beam of light across the spacecraft (perpendicular to the spacecraft's motion). On the Earth is another observer."} 
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=0.20\textheight]{RdeH1a.png}
+\caption{Observer A}
+\label{fig:SR1a}
+\end{figure} 
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=0.20\textheight]{RdeH1b.png}
+\caption{Observer B}
+\label{fig:SR1b}
+\end{figure} 
+
+\textit{"According to the observer on the spacecraft, the light beam travels a distance w, where w is the width of the spacecraft. However, the observer on Earth will see the light beam cover a greater distance, due to the motion of the spacecraft while the light beam is en route."}
+
+\cnpsheading\section{The Wrong Model}
+Observer A is moving with the spacecraft and the model shows that he sees the light moving straight up. Observer B is on the earth and observes the light moving to the right at a 45 degree angle. Since they each see a different image, a transformation is needed. But wait! The two images are wrong.
+
+\cnpsheading\subsection{Observer A}
+In Figure \ref{fig:SR1a}, observer A sees the laser beam moving straight up and is not aware that he is moving. There is no arrow showing the velocity v. He is not smart enough to look out the window and see the earth moving by. Even so, if the light beam is actually moving straight up he should know that the spacecraft is not moving relative to the laser beam that he sees, even though he sees the earth moving.
+
+The laser is pointing straight up from the floor of the spacecraft. Each photon of the light beam should move in a straight up at speed c until it reaches the ceiling. The spacecraft, the observer, the laser source, and the air in the spacecraft are all moving to the right at speed v. Observer A should see each photon move backward because he an the spacecraft are moving forward. 
+
+\cnpsheading\subsection{Observer B}
+Observer B sees the spacecraft moving forward a velocity v and the laser beam moving up at speed c. The question is: "What causes the beam to move faster than the space ship?"  Robert Johnston states: \textit{"...the light beam covers a greater distance due to the motion of the spacecraft."} It is the motion of the spacecraft that pushes the light forward. I don't know of any force that does that!
+
+\cnpsheading\section{Light}
+It could help if we had a better understanding of how we see the light beam. So here is a simple experiment. 
+
+Shine a red laser light on the wall. Do you see the red spot? Yes, but do you see the red beam going from the laser pointer to the wall? No? It's true, you can't see a photon moving in space unless it reflects off of something and then the reflection must hit your eye.
+
+My wife suggested I spray hair spray in the room and then shine the laser light on the wall. Great! Now I can see the beam of light. Well, no, I am not seeing the beam of light. I see hair spray particles that are painted red by the laser light.
+
+\cnpsheading\subsection{Image of the Red Dot}
+It turns out that when the laser light hits the wall, there are images of the red dot scattered in all directions. If there are twenty people in the room and they are all looking at the red dot on the wall, there must be twenty images of that red dot scattered from the wall. In fact there are millions of these images scattered around the room. And no matter where you are you see the red dot. They are not identical images. Each of us has a different view of the red dot. But we all call it a red dot.
+
+\cnpsheading\subsection{Image of the Red Hair Spray Particles}
+In a very short interval of time the laser light (photons) will hit many hair spray particles. These photons will scatter in all directions sending similar images in all directions. One of the images reaches observer A and he sees the streams of red hair spray particles. If Observer A sees the the stream of particles shown in Figure \ref{fig:SR1a}, then observer B will see the same image. 
+
+\cnpsheading\section{What Really Happens}
+So what should each observer see? The following assumption is made::
+
+\textit{The speed of the red laser light is the speed of light in air. Its direction is the same direction that the laser source is pointed. In other words, the velocity of the laser source does not affect the direction of the light.} 
+
+%\vspace{40mm}
+
+\cnpsheading\subsection{Observer A}
+Figure \ref{fig:SR2} shows what observer A could see if the space craft is moving at a high speed. The laser source emits 7 bursts of red light. The first burst moves straight up until it reaches the ceiling. The second burst is emitted after the spacecraft has moved a short distance and it ends up below the first burst. After the spacecraft has moved and has released the seventh burst, Observer A will see the red hairspray particles as shown in Figure \ref{fig:SR2}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=0.20\textheight]{RdeH2.png}
+\caption{Observer A Actual Image}
+\label{fig:SR2}
+\end{figure} 
+
+The spacecraft is shown when the first photon burst has reached the ceiling. The last one emitted is just above the floor. 
+\cnpsheading\subsection{Observer B}
+According to the physics of light described above, if observer A sees the dotted image in Figure \ref{fig:SR2}, then observer B will see a similar image.
+
+
+\cnpsheading\section{No Translation Needed}
+There is one event. The red laser photons scatter from the hairspray particles. It will send nearly identical images of the particles to observer A and B. If observer A and B see the same image, then there is no translation needed. The speed of an object does not change the scattered image of the object. Special relativity equations solve a problem that does not exist. It does not cause time dilation, nor length contraction, nor mass increase.
+
+\bibliographystyle{aipproc}
+\begin{thebibliography}{9}
+
+
+\bibitem{johnston}
+Wm Robert Johnston,
+\emph{Some equations of special relativity.},
+26 July 2005.
+
+\end{thebibliography}
+
+\end{document}

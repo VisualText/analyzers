@@ -1,0 +1,772 @@
+%%
+%% This is file `template-8d.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% template.raw (with options: `8d')
+%%
+%% Template for the LaTeX class aipproc.
+%%
+%% (C) 1998,2000,2001 American Institute of Physics and Frank Mittelbach
+%% All rights reserved
+%%
+%%
+%% $Id: template.raw,v 1.12 2005/07/06 19:22:14 frank Exp $
+%%
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SELECT THE LAYOUT
+%%
+%% The class supports further options.
+%% See aipguide.pdf for details.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[proceedings.tex]{subfiles}
+
+\def\mytitle{Newton's Gravitational Law over Dark Matter}
+\def\myauthors{Cameron Rebigsol}
+ 
+\fancyhead[CE]{Cameron Rebigsol: Newton's Gravitational Law over Dark Matter}
+\autotoc{\mytitle}{\myauthors}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% FRONTMATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\begin{document}
+
+\title{\mytitle}
+\index{Rebigsol, Cameron}
+
+\keywords {on-axis effect, off-axis effect, dark matter, the Milky Way   }
+
+\author{2016 \copyright \hspace{0.2cm} Cameron Rebigsol}{
+  address={P.O. Box 872282, Vancouver, WA 98687, crebigsol@gmail.com}}
+
+\begin{abstract}
+Observation of stellar movement of the  Milky  Way galaxy \cite{Milky way} shows that celestial objects at distance beyond 10 kpcs from the galactic center appear to move at speed higher than what Newtonian gravitational law \cite{Classic physics} predicts and that celestial objects in the inner range at distance between 1 and 8 kpcs from the center appear to move at speed lower than predicted  (Please refer to figure \ref{fig:galaxy-rotation-curve} in the main text). It appears to a group of people that this phenomenon is suggesting certain failure of the Newtonian gravitational law and that remedy to repair the failure is therefore needed.   They mainly propose two ideas as the remedy: (1) dark matter \cite{Dark Matter}, (2) to modify Newton's gravitational law \cite{Law modification}. 
+
+To promote the acceptance of dark matter, it has been popularly advocated that the validity of relativity has enabled the dark matter to exist with unchallengeable legitimacy. A term called space-time fantasized out of relativity plays a key role for dark matter to enjoy a niche where verification never seems able to reach.    To reject the existence of dark matter, someone needs first to have relativity refuted.     It is so unfortunate to dark matter, however, relativity is exactly a theory that defeats itself, both in terms of mathematical derivation \cite{Rebigsol1-Relativity} as well as in terms of physical explanation \cite{Rebigsol2-Relativity} \cite{Rebigsol3-Relativity}.  Space-time as an independent fourth dimension in the universe does not exist, but space and time as two separate physical elements being absolute can be proven \cite{Rebigsol3-Relativity}. If relativity cannot even defend itself, it can only be obvious that it is unable to support the existence of dark matter.  Subsequently, the concept of dark matter is refutable.    
+
+Finding no support from dark matter, this article can only go by the restricted application of the Newton's gravitational law in exploring the reason governing the speed distribution displayed in Fig. A. However, then, we must encounter the argument that Newton's law needs to be modified. But how? We will soon find that Newton's gravitational law can lead someone to have unlimited quantity of dark matter \textemdash if it is misapplied.    
+
+Allowing Newton's gravitational law to be modified in the science world, we just end up placing ourselves to confront with a school principle that is as ancient as human beings ever have schools: Should a student taking a test be given the flexibility to modify a rule or law from a textbook only because he found this rule or law fails him from arriving at an answer at his satisfaction?  In the auditorium of science, we all are students of Mother Nature.  Never has she given us the privilege of arrogance with which we can claim that "I have no fault in study.  If no answer can be arrived at my satisfaction, it is the fault of the law that I am taught to follow." Nevertheless, Newton's laws in mechanics study are put up by great minds of many generations including those well respected pioneers like Copernicus, Galileo, Kepler...besides Newton.  It is for sure that we need to have an open mind toward all natural laws that are summarized by human. However, to anyone attempting the modification of a natural law that has been confirmed by numerous  practice, he must present the following two indispensable elements before so attempting: (1) miscalculation or mistreatment in the derivation of the law in concern is found, (2) some part of the derivation is found having been decisively misled by irrelevant facts, or inadequate facts, or improperly explained facts.  Plunging into modification without presenting these two gravely critical elements is only an excellent expression defining the word recklessness.  Frankly, no such attitude should be accepted in any serious business.     
+
+This article presents several cases needing the scrutiny guided by Newtons gravitational law.  After the examination of these few cases, a reader can easily arrive at a conclusion regarding whether the science world has come to a need to modify Newton's law or a need to modify some people's attitude of attempting the modification of Newton's law.  Through applying Newton's law, it also appears to us that the Magellanic Clouds cannot be expected to have been traveling on a close orbit about the Milky Way, but instead, they are only one time visitors to our galaxy. No close orbit means no satellite. It therefore means that the Magellanic Clouds are of no satellite to the Milky Way.  Newton's gravitational law also gives us explanation why two-rotational-arms is a prominently popular phenomenon among rotating galaxies.
+
+
+
+\end{abstract}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MAINMATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}\label{fig:galaxy-rotation-curve}
+\includegraphics[width=7cm]{Paper1/Fig0A}
+\caption{Galaxy rotation curve for the Milky Way. Vertical axis is speed of rotation about the Galactic Center. Horizontal aix is distance form the Galactic Center in kpcs. The Sun is marked with a yellow ball. The observed curve of speed of rotation is blue. The predicted curve based upon stellar mass and gas in the Milky Way is red. Scatter in observations roughly indicated by gray bars. (Wikipedia)}
+\end{figure}
+
+\cnpsheading\section{Introduction}
+
+Through studying several special cases on the relationship between shape and gravitation, we will explore how some flying materials at a certain distance from the center of the Milky Way galaxy would show up with speeds higher or lower than "normal".   The so called "normal" speed referred to in this article is the speed conventionally believed to be possessed by an object that is moving around a point mass at a distance far larger than the dimension of the point mass.  The speed so obtained is derived according to the Newtonian gravitational law.
+
+Since the situation involving such conventional treatment repeats many times in this article, the term "normal" speed or "normal" force will be used here with the inseparable quotation marks.  Almost all cases presented here are hypothetically assumed in geometry, but they sure would lead us to have a peek at how the shape of a gravity body can lever the movement of some objects that appear in its vicinity of close range.   Being so levered, though, all these movements cannot get away from the governing of Newton's gravitational law.      
+
+\cnpsheading\section{Consideration on Some Special Cases}
+
+\cnpsheading\subsection{Case 1: The On-Axis Effect}
+
+\begin{figure}[h]\label{fig:cameronbar01}
+\adjustbox{trim={0} {.25\height} {0} {0},clip}%
+  {\includegraphics[width=6cm]{Paper1/Fig01}}
+\caption{Object A of mass m is on the axis of a homogeneous bar with a distance D}
+\end{figure}
+
+In figure \ref{fig:cameronbar01}, object A of mass $m$ is on the axis of a homogeneous bar with a distance $D$ from one end of this bar.  The bar of mass $M$  has a length of $L$(=2a) .  The gravitational force between A and each differential mass element \(dm\) of the bar is
+
+\begin{equation} \label{eq:1}
+\begin{split}
+df=G \frac{m \cdot dM}{x^2} 
+\end{split}
+\end{equation}
+where $G$ is the universal gravitational constant.
+
+Since $dM=(M /L) dx$, we get 
+
+\begin{equation} \label{eq:2}
+df=G \frac{mM}{Lx^2} dx
+\end{equation}
+
+Thus the total force $F_{1/1}$ between A and the bar is
+
+\begin{equation} \label{eq:3}
+F_{1/1} =\int_{D}^{D+2a} G \frac{m M}{L x^2}dx
+\end{equation}
+\[=G\frac{mM}{D(D+2a)}\]
+
+The tangential speed $v_{1/1}$ that is large enough for A to resist the bar's gravitational pull will lead to:
+
+\begin{equation} \label{eq:4}
+m \frac{v_{1/1}^2}{(D+a)}=G\frac{mM}{D(D+2a)}
+\end{equation}
+
+and therefore
+
+\begin{equation} \label{eq:5}
+v_{1/1}^2=\frac{GM(D+a)}{D(D+2a)}
+\end{equation}
+\vspace{1em}
+
+Had the bar become a point mass and stayed at where its original mass center is, the gravitational force $F_{1/2}$ between it and A should be 
+
+\begin{equation} \label{eq:6}
+F_{1/2}=G\frac{mM}{(D+a)^2}
+\end{equation}
+
+The tangential speed corresponding to $F_{1/2}$  for A to resist the pull of the point mass is
+
+\begin{equation} \label{eq:7}
+v_{1/2}^2=\frac{GM}{D+a}
+\end{equation}
+
+The comparison between $v_{1/1}$ and $v_{1/2}$  would lead to 
+
+\begin{equation} \label{eq:8}
+\frac{v_{1/1}^2}{v_{1/2}^2} =\frac{D^2+2aD+a^2}{D^2+2Da}
+\end{equation}
+
+In order to make $v_{1/1} \approx v_{1/2}$, we need $D >> a$ so that length $a$ becomes trivial in equation (\ref{eq:3})  and the bar can then be regarded as a point mass. The smaller the distance $D$ is, the higher the magnitude $v_{1/1}$  becomes if A is to survive the gravitational pull of the bar.  Once A survives the pull at this point, it will retain this higher than "normal" (moving about a point mass at large distance) momentum forever until something else brakes on it.
+
+We use the term \textbf{on-axis effect} to name the effect that leads to $F_{1/1}>F_{1/2}$  and thus also leads to $v_{1/1}>v_{1/2}$, where $F_{1/2}$  is the "normal" force and $v_{1/2}$ is the "normal" speed.    
+\vspace{1em}
+
+Now, we have come to a point that a big question demands answer:
+
+\textbf{Do we need "dark matter" or to "modify" Newton's law to explain the on-axis effect based on $v_{1/1} > v_{1/2}$ that is correspondingly caused by $F_{1/1} > F_{1/2}$  ???} 
+\vspace{1em}
+
+\cnpsheading\subsection{Case 2: Gravity off the Axis of a Bar, Situation 1}
+
+\textbf{STEP (A)}
+
+\begin{figure}[h]\label{fig:cameron2a}
+\adjustbox{trim={0} {.10\height} {0} {0},clip}%
+  {\includegraphics[width=7cm] {Paper1/Fig02a}}
+\caption{q is the distance between the two mass centers }
+\end{figure}
+
+The same two gravity bodies in figure \ref{fig:cameronbar01} are rearranged so that \textbf{A} is located a distance of \textit{h} away directly below the end point J of the bar. (figure \ref{fig:cameron2a})
+
+In figure \ref{fig:cameron2a}, $q$ is the distance between the two mass centers, and thus 
+
+\begin{equation} \label{eq:9}
+q^2=a^2+h^2
+\end{equation}
+                 
+Line \textit{p} represents the distance between the mass center of \textbf{A} and the differential element $dx$ of the bar.  Therefore,
+
+\begin{equation} \label{eq:10}
+p^2=x^2+h^2 
+\end{equation}
+
+The gravitational force ${df_1}$ between $dx$ and \textbf{A} is
+                         
+\begin{equation} \label{eq:11}
+\begin{split}
+df_1 & = \frac{Gm}{p^2} dM\\
+&= \frac{Gm}{x^2+h^2} dM\\
+&= \frac{Gm}{x^2+h^2} \cdot \frac{M}{2a}dx
+\end{split}
+\end{equation}
+
+If ${df_1}$ is projected on \textit{q}, we get $df'_1$ , which is
+
+\[df'_1  =df_1 \cos \theta\]
+\[=\frac{Gm}{x^2+h^2} \cdot \frac{M}{2a}dx \cdot\frac{p^2+q^2-(a-x)^2}{2pg}\]
+
+and thus further becomes
+\begin{equation} \label{eq:12}
+df'_1=\frac{Gm}{x^2+h^2} \cdot \frac{M}{2a}dx \cdot\frac{(x^2+h^2)+(a^2+h^2)-(a-x)^2}{2 \sqrt{x^2+h^2}\cdot\sqrt{a^2+h^2}}
+\end{equation}
+
+The total force between \textbf{A} and the segment JK of the bar is 
+\[$$$$F_{2/1} =\int_{0}^{a} df'_1 \]
+and thus further becomes
+
+\begin{equation} \label{eq:13}
+F_{2/1}=\frac{GmM}{2h \sqrt{a^2+h^2}}                  \end{equation}
+\vspace{1em}
+
+\textbf{STEP (B)}
+
+Figure \ref{fig:cameron2b} is a duplicate of \ref{fig:cameron2a} but point $x=0$ is located at K for calculation convenience.
+
+
+In figure \ref{fig:cameron2b}, \textit{s} represents the distance between the mass center of \textbf{A} and the differential element $dx$ on the bar.  Therefore,
+
+\begin{equation} \label{eq:14}
+s^2=h^2+(a+x)^2                                 
+\end{equation}
+
+ \begin{figure}[h]\label{fig:cameron2b}
+\adjustbox{trim={0} {.12\height} {0} {0},clip}%
+  {\includegraphics[width=7cm] {Paper1/Fig02b}}
+\caption{q is the distance between the two mass centers}
+\end{figure}
+ 
+  
+The gravitational force $df_2$ between $dx$ and \textbf{A}  is 
+
+\begin{equation} \label{eq:15}
+\begin{split}
+df_2 & =\frac{Gm}{s^2}dM\\
+& =\frac{Gm}{(a+x)^2+h^2} dM\\
+& =\frac{Gm}{(a+x)^2+h^2} \cdot \frac{M}{2a} dx 
+\end{split}
+\end{equation}
+
+When $df_2$ is projected on line $q$, we have
+$df'_2=df_2 \cos \phi$, and with $x^2=s^2+q^2-2sq\cos \phi$, we further have
+
+\begin{equation} \label{eq:16}
+df'_2=df_2 \cdot\frac{h^2+(a+x)^2+(a^2+h^2)-x^2}{2\sqrt{(h^2+(a+x)^2} \cdot \sqrt{a^2+h^2}}                                
+\end{equation}
+
+The total force between A and the segment KL of the bar is 
+\($$F_{2/2}=\int_{0}^{a} df'_2$$\) ,  which, following equation (\ref{eq:16}), would then further develop into
+
+\begin{equation} \label{eq:17}
+F_{2/2}=\frac{GmM}{2\sqrt{ a^2+h^2} \cdot \sqrt{4a^2+h^2}} \end{equation}
+\vspace{1em}
+
+\textbf{STEP (c)}
+
+The total force between A and the mass center of the entire bar is $F_{2/3}=F_{2/1}+F_{2/2}$  and thus
+
+\begin{equation} \label{eq:18}
+F_{2/3}=\frac{GmM}{2h \sqrt{a^2+h^2}}+\frac{GmM}{2\sqrt{ a^2+h^2} \cdot \sqrt{4a^2+h^2}} 
+\end{equation}
+
+If \textbf{A} happens to move at speed $v_{2/3}$ in a direction perpendicular to line \textit{q}, the centrifugal force thus needed to resist the bar's gravitational pull will lead to
+
+\begin{equation} \label{eq:19}
+ \frac{mv_{2/3}^2}{\sqrt{a^2+h^2}}=\frac{GmM}{2h \sqrt{a^2+h^2}}+\frac{GmM}{2\sqrt{ a^2+h^2} \cdot \sqrt{4a^2+h^2}}
+\end{equation}
+
+Had the bar become a point mass and stayed at where its original mass center is, the "normal" gravitational force between A and this point mass will be  
+
+\begin{equation} \label{eq:20}
+F_{2/4}=\frac{GmM}{a^2+h^2}
+\end{equation}
+
+The "normal" centrifugal force for \textbf{A} corresponding to $v_{2/4}$ would lead to
+
+\begin{equation} \label{eq:21}
+\frac{m v_{2/4}^2}{\sqrt{a^2+h^2 }}=\frac{GmM}{a^2+h^2}
+\end{equation}
+
+Thus, we can have the comparison between $v_{2/3}$ and $v_{2/4}$  as 
+
+\begin{equation} \label{eq:22}
+\frac{v_{2/3}^2}{v_{2/4}^2}=\frac{\sqrt{a^2+h^2}}{2h }+\frac{\sqrt{a^2+h^2}}{2\sqrt{4a^2+h^2}}
+\end{equation}
+
+ Let $h=na$, where $n \neq 0$, equation (\ref{eq:22}) leads to  
+ 
+\begin{equation} \label{eq:23}
+\frac{v_{2/3}^2}{v_{2/4}^2}=\frac{\sqrt{1+n^2} }{2n}+\frac{\sqrt{1+n^2}}{2\sqrt{4+n^2}}
+\end{equation}
+           
+ If $n=1$, for example, we have
+ 
+\begin{equation} \label{eq:24}
+\frac{v_{2/3}^2}{v_{2/4}^2}=1.8
+\end{equation}
+           
+If $n$=3, however, we will have
+
+\begin{equation} \label{eq:25}
+\frac{v_{2/3}^2}{v_{2/4}^2}=0.96
+\end{equation}
+
+If we must introduce dark matter to explain the phenomenon brought up by equation (\ref{eq:24}), how do we explain the phenomenon brought up by equation (\ref{eq:25})?
+
+Of course, when $n \rightarrow \infty$ , we no longer need to be concerned with dark matter, as equation (\ref{eq:23}) would give us a value very close to 1, fitting our conventional concept that the bar can be viewed as a point mass.
+
+If $F_{2/3}$ is to be resolved on the line connecting \textbf{A} and J, we have $F_{2/5}$ , where
+
+\begin{equation} \label{eq:26}
+\begin{split}
+F_{2/5} &=\frac{F_{2/3} \cdot h}{\sqrt{a^2+h^2}}\\
+&=\frac{GmM}{2(a^2+h^2)} \cdot (1+ \frac{h}{\sqrt{4a^2+h^2}})
+\end{split}
+\end{equation}
+
+\cnpsheading\subsection{Case 3a:   Gravity off the Axis of a Bar, Situation 2}
+
+
+
+
+In figure \ref{fig:cameron3a}, we duplicate the bar in figure \ref{fig:cameron2a}, or figure \ref{fig:cameron2b}, and "weld" it with the original bar end to end and thus form a new bar.
+
+On each side of the mass center of this longer homogeneous bar, the half bar has a length of 2a (therefore the total length is 4a). The gravitational force $F_{3/1}$ between \textbf{A} and the full length new bar is two times of $F_{2/5}$ found in equation (\ref{eq:26}) and therefore
+
+\begin{figure}[h]\label{fig:cameron3a}
+\adjustbox{trim={0} {.12height} {0} {0},clip}%
+  {\includegraphics[width=7cm] {Paper1/Fig03a}}
+\caption{Two of the same bars "welded" together}
+\end{figure}
+
+\begin{equation} \label{eq:27}
+\begin{split}
+F_{3/1} &=2F_{2/5}\\
+&=\frac{GmM}{(a^2+h^2)} \cdot (1+ \frac{h}{\sqrt{4a^2+h^2}})
+\end{split}
+\end{equation}
+
+The tangential speed $v_{3/1}$ that is large enough for \textbf{A} to resist the bar's gravitational pull will lead to
+
+\begin{equation} \label{eq:28}
+\frac{mv_{3/1}^2}{h}=\frac{GmM}{a^2+h^2} \cdot(1+\frac{h}{\sqrt{4a^2+h^2}})      
+\end{equation}
+
+Had the bar become a point mass and stayed at where its mass center has been, the "normal" gravitational force $F_{3/2}$ between \textbf{A} and the bar will be
+
+\begin{equation} \label{eq:29}
+F_{3/2}=G\frac{m \cdot 2M}{h^2}                    
+\end{equation}
+
+The "normal" centrifugal force corresponding to  $F_{3/2}$ would lead to
+
+\begin{equation} \label{eq:30}
+m\frac{v_{3/2}^2}{h^2}=G\frac{m \cdot 2M}{h^2}                \end{equation}
+
+Thus, we can have the comparison between $v_{3/1}$  and $v_{3/2}$  as
+
+\begin{equation} \label{eq:31}
+\frac{v_{3/1}^2}{v_{3/2}^2}=\frac{h^2 (h+ \sqrt{4a^2+h^2} ) }{2(a^2+h^2)\sqrt{4a^2+h^2}}             
+\end{equation}
+
+Let $h=na$, where $n \neq 0$, we have 
+
+\begin{equation} \label{eq:32}
+\frac{v_{3/1}^2}{v_{3/2}^2}=\frac{n^3}{2(1+n^2)\sqrt{4+n^2}}+ \frac{n^2}{2(1+n^2)}             
+\end{equation}
+
+Each term on the right side of equation (\ref{eq:32}) is smaller than 0.5.  Therefore, $v_{3/1}$  is forever smaller than $v_{3/2}$ for any value of $n$.  \textbf{Dark matter must fail} in explaining the phenomenon brought up by equation (\ref{eq:32}).          
+
+\cnpsheading\subsection{Case 3b:   Off-axis Effect}
+
+\begin{figure}[h]\label{fig:cameron3b}
+\adjustbox{trim={0} {.12\height} {0} {0},clip}%
+  {\includegraphics[width=7cm] {Paper1/Fig03b}}
+\caption{Off-axis Effect}
+\end{figure}
+
+
+In figure \ref{fig:cameron3b}, we are going to compare the dynamic status of \textbf{A} between location E and F.
+
+At location E, the reasoning of equation (\ref{eq:3}) gives us the gravitational force received by \textbf{A} as
+
+\begin{equation} \label{eq:33}
+F_{3b/1}=G\frac{mQ}{(k-d)^2+2d(k-d)}
+\end{equation}
+
+The speed $v_{3b/1}$ matching the corresponding centrifugal force for \textbf{A} to survive the pull from the bar leads to
+
+\begin{equation} \label{eq:34}
+v_{3b/1}^2=\frac{GQk}{(k-d)^2+2d(k-d)}
+\end{equation}
+
+At location F, the reasoning of equation (\ref{eq:27}) gives us the gravitational force received by A as
+
+\begin{equation} \label{eq:35}
+F_{3b/2}=\frac{Gm(Q /2)}{(d /2)^2+k^2} \cdot (1+\frac{k}{\sqrt{4(d /2)^2+k^2}})
+\end{equation}
+
+The speed $v_{3b/2}$ matching the corresponding centrifugal force for A to survive the pull from the bar at F leads to
+
+\begin{equation} \label{eq:36}
+v_{3b/2}^2=\frac{G(Q /2)k}{(d /2)^2+k^2} \cdot (1+\frac{k}{\sqrt{4(d /2)^2+k^2}})
+\end{equation}
+
+Therefore we can further have 
+
+\begin{equation} \label{eq:37}
+\frac{v_{3b/1}^2}{v_{3b/2}^2}=\frac{(d^2+4k^2 )\sqrt{d^2+k^2}}{2(k^2-d^2)\sqrt{d^2+k^2}+k}
+\end{equation}
+
+Letting $k=nd$, where $n \neq 0$, we have
+
+\begin{equation} \label{eq:38}
+\frac{v_{3b/1}^2}{v_{3b/2}^2}=\frac{(1+4n^2 )\sqrt{1+n^2}} {2(n^2-1)(n+\sqrt{1+n^2)}}
+\end{equation}
+
+If  $n+e>1$, but with $e \rightarrow0$,   equation (\ref{eq:38}), easily leads us to have higher and higher value for the ratio of the two speeds.
+
+So, if we must regard the bar as a point mass in explaining the speed of \textbf{A}, then, at location E we must face inexplicable reason for \textbf{A}'s higher than "normal" speed.  When \textbf{A} moves to area near location F, we may perplex even more, because, carrying the momentum equipped at E, \textbf{A} now is encountered weaker and weaker than "normal" gravitational pull at F. Indeed, we can expect that A is going to fly away from the bar.  For example, if $n=2$, the ratio in equation (\ref{eq:38}) is 1.49, or $v_{3b/1}=1.22v_{3b/2}$.  The bar definitely can no longer bind $\textbf{A}$ with gravitation at F.  From the behavior of $\textbf{A}$ at location F, should we conclude that some apparent mass from the bar must have lost its gravity? Or, should we propose that Newton's gravitational law needs to be modified?
+
+We use the term \textbf{off-axis effect} to name the effect that leads \textbf{A} to receive weaker than "normal" gravitational force $F_{3b/2}$ at F.    Equation (\ref{eq:38}) tells us that the off-axis effect will diminish as  $n \rightarrow \infty$ and the bar can be regarded as a point mass at a remote distance. 
+              
+We have come to a point to propose a serious question:  If the concept of dark matter can "help" to explain some phenomena similar to the on-axis effect, how would the same concept now help to explain the off-axis effect, which seems showing some mass otherwise having disappeared with no good reason? Or should we begin to propose a new idea to explain where some of the apparent mass has been made lost and how? Or should we again begin to suspect the validity of Newton's law?  
+
+\cnpsheading\subsection{Case 4: Gravity in the Vicinity of a Cross}
+
+\begin{figure}[h]\label{fig:cameron04}
+\adjustbox{trim={0} {.10\height} {0} {0},clip}%
+  {\includegraphics[width=7cm]{Paper1/Fig04}}
+\caption{gravity in the vicinity of a cross}
+\end{figure}
+
+In figure \ref{fig:cameron04}, two bars of length $2a$ and mass M each are placed perpendicularly crossing each other at their dead centers.  Body $\textbf{A}$ is a distance  $a$   from each bar, and therefore it is a distance $q$ away from the mass center of the cross, where  $q=\sqrt{2}a$ .  Taking advantage of the analysis shown with figure \ref{fig:cameron2a} and \ref{fig:cameron2b}, replacing $h$ in equation (\ref{eq:18}) with $a$, we can have the gravitational force $F_{4/1}$ between $\textbf{A}$ and the mass center of the cross as 
+
+\begin{equation} \label{eq:39}
+\begin{split}
+ F_{4/1} & =2(\frac{GmM}{2a\sqrt{a^2+a^2}}+\frac{GmM}{(2a\sqrt{a^2+a^2} \sqrt{4a^2+a^2}})\\
+ & =GmM(\frac{\sqrt{5}+1}{a^2\sqrt{10}})
+\end{split}
+\end{equation}
+                                                         
+The tangential speed $v_{4/1}$  that is large enough for $\textbf{A}$ to resist the cross's gravitational pull will lead to:
+
+\begin{equation} \label{eq:40}
+m\frac{v_{4/1}^2}{\sqrt{2} a}=\frac{GmM(\sqrt{5}+1)} {a^2 \sqrt{10}}
+\end{equation}
+
+Had the cross become a point mass and stayed at where its mass center has been, the "normal" gravitational force $F_{4/2}$  between A and the cross will be
+
+\begin{equation} \label{eq:41}
+F_{4/2}=G\frac{m(2M)}{(\sqrt{2} a)^2}=\frac{GmM}{a^2}   
+\end{equation}  
+
+The "normal" centrifugal force for \textbf{A} corresponding to $F_{4/2}$ thus leads to a "normal" tangential speed $v_{4/2}$ as shown below
+
+\begin{equation} \label{eq:42}
+m\frac{v_{4/2}^2}{\sqrt{2}a}=G\frac{m(2M)}{(\sqrt{2} a)^2}  
+\end{equation}  
+
+Thus, we can have the comparison between $v_{4/1}$ and $v_{4/2}$ as
+
+\begin{equation} \label{eq:43}
+\frac{v_{4/1}^2}{v_{4/2}^2}=\frac{(\sqrt{5}+1) /a^2 \sqrt{10}}{1 /a^2}  \approx 1.023
+\end{equation} 
+
+Equation (\ref{eq:43}) thus shows that, at the location as shown in figure \ref{fig:cameron04}, the tangential velocity for \textbf{A} to survive the pull will not change much whether the gravitational influence is from a cross or a point mass of the same mass. 
+
+\cnpsheading\subsection{Case 5a:   Gravity at the Tip of a Cross}
+
+In figure \ref{fig:cameron05}, the gravitational force $F_{5/1}$ between \textbf{A} and the vertical bar can be calculated according to equation (\ref{eq:3}).  In so doing, $D$ in equation (\ref{eq:3}) is replaced with $D=q-a$ .  Therefore, we have
+
+\begin{equation} \label{eq:44}
+\begin{split}
+F_{5/1}&=\frac{G mM}{(q-a)^2+2a(q-a)} \\
+& =\frac{GmM}{q^2-a^2}
+\end{split}
+\end{equation} 
+
+The gravitational force $F_{5/2}$ between \textbf{A} and the horizontal bar can be calculated according to equation (\ref{eq:27}).  In doing so, $M$ in equation (\ref{eq:27}) is replaced with $M /2$, $a$ is replaced with $a /2$, $h$ is replaced with $q$.  Then,
+
+\begin{equation} \label{eq:45}
+\begin{split}
+F_{5/2}&=\frac{G m(M /2)}{(a /2)^2+(\sqrt{2}a)^2} \cdot (1+ \frac{\sqrt{2} a}{\sqrt{4(a /2)^2+(\sqrt{2} a)^2} }) \\
+& \approx 0.403 \frac{GmM}{a^2}
+\end{split}
+\end{equation}
+
+The total gravitational force $F_{5/3}$ between \textbf{A} and both bars together is then
+
+\begin{equation} \label{eq:46}
+\begin{split}
+F_{5/3}&= F_{5/1}+F_{5/2} \\
+& =1.403 \frac{GmM}{a^2}\\
+& = 1.403 \hspace{0.1cm}  F_{4/2}
+\end{split}
+\end{equation}
+
+where $F_{4/2}$ is the gravitational force that \textbf{A} would have received if the cross had been a point mass at the mass center of the cross  [See equation (\ref{eq:41})].
+
+\begin{figure}[t]\label{fig:cameron05}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics[width=7cm]{Paper1/Fig05}}
+\caption{Gravity at the tip of the cross}
+\end{figure}
+
+The tangential speed $F_{5/3}$ that can equip \textbf{A} with enough centrifugal force against the cross's gravitational pull will lead to:
+
+\begin{equation} \label{eq:47}
+m \frac{v_{5/3}^2}{\sqrt{2}a}=1.403(\frac{GmM}{a^2})  
+\end{equation}
+                                          
+Applying equation (\ref{eq:41}) in comparing the centrifugal force displayed in equation (47), we have 
+\[\frac{v_{5/3}^2}{v_{4/2}^2}=1.403\] or
+
+\begin{equation} \label{eq:48}
+v_{5/3}=1.184v_{4/2} 
+\end{equation}
+
+In figure \ref{fig:cameron06}, let's imagine that the tangential momentum of each of objects \textbf{A}, \textbf{B}, and \textbf{C} has enabled them to survive the gravitational pull of the cross.   
+
+To any object in a situation similar to that of \textbf{A}, \textbf{B}, and \textbf{C}, the general expression for the gravitational force $F_{5/4}$ it receives from the cross can be written as (Refer to equation  (\ref{eq:27}) , (\ref{eq:35}) and (\ref{eq:44}), with proper replacement of corresponding quantities)
+
+\(F_{5/4}\)= force from vertical bar
+
+\hspace{2.5cm}+ force from horizontal bar
+
+or
+
+\begin{equation} \label{eq:49}
+\begin{split}
+F_{5/4} & =\frac{GmM}{q^2-a^2}+\frac{Gm(M /2)}{(a/2)^2+q^2} \cdot  (1+\frac{q}{\sqrt{(4(a /2)^2+q^2 }})\\
+&=GmM[\frac{1}{q^2-a^2}+\frac{2\sqrt{q^2+a^2}+2q}{(4q^2+a^2 ) \sqrt{q^2+a^2}}]
+\end{split}
+\end{equation}
+
+\begin{figure}[t]\label{fig:cameron06}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics[width=6cm]{Paper1/Fig06}}
+\caption{Three objects flying at the tip of the cross}
+\end{figure}
+
+The tangential speed $v_{5/4}$   corresponding to $F_{5/4}$  would show
+
+\begin{equation} \label{eq:50}
+v_{5/4}^2 =GMq[\frac{1}{q^2-a^2}+\frac{2\sqrt{q^2+a^2}+2q}{(4q^2+a^2 ) \sqrt{q^2+a^2}}]
+\end{equation}
+
+Let \(q=na\), where \(n \neq 0\), correspondingly, equation (49) and (50) will become
+
+
+\begin{equation} \label{eq:51}
+F_{5/4} =\frac{GmM}{a^2}[\frac{1}{n^2-1}+\frac{2\sqrt{n^2+1}+2n}{(4n^2+1)\sqrt{n^2+1}} ]
+\end{equation}
+
+and
+
+\begin{equation} \label{eq:52}
+v_{5/4}^2 =GMa \cdot n[\frac{1}{n^2-1}+\frac{2\sqrt{n^2+1}+2n}{(4n^2+1)\sqrt{n^2+1}}]
+\end{equation}
+
+Figure \ref{fig:cameron07} is a chart showing how $F_{5/4}$  and the ratio $v_{5/4} /v_{4/2}$ change in accordance with $n=1.05$,   $n=1.1$,   $n=1.2$,   $n=1.3$,  $ n=1.4$,   $n=2$, and $n=5$.
+
+
+Note 1: The so called $F_{normal}$ in the chart is the gravitational force that a moving object receives from the cross but the cross has been shrunk into a point mass of the same mass quantity at its mass center. 
+
+Note 2:  $a$ is the arm length of the cross, $q$ is the distance between the moving object and the mass center of the cross.
+
+\begin{figure}[!]\label{fig:cameron07}
+\centering
+\adjustbox{trim={0} {0\height} {0} {0},clip}%
+  {\includegraphics[width=14cm]{Fig07.png}}
+\caption{Data comparison showing how Newton's gravitational law can be "failed", if the shape of a gravity body is not taken into consideration.  The shorter the distance is between the gravity body and the flying object, the more serious attention should be paid to the shape of the gravity body.  It seems to us that on the line of n=q/a=1.05, the end figure 2.4 appears being a value hungry of waiting for the makeup of "dark matter".}
+\end{figure}
+
+\cnpsheading\subsection{Case 5b   \hspace{0.2cm} On the Gravity of a Softened Cross and on the Rotation Arms of the Milky Way}
+
+If the lower arm of the cross is: (1) a rotating body with respect to the mass center of the entire cross and (2) composed of loose materials, all the materials in this arm must display the same movement pattern as what A, B, and C are showing in figure \ref{fig:cameron07a}.
+
+The same reasoning must equally apply to other arms of the cross, if all other arms also possess the same nature as that of the lower arm. (figure \ref{fig:cameron07b})
+
+
+However, as our inspection moves closer and closer to the center of the cross, we must notice that the arm length of the cross is getting shorter and shorter.   The ever shortened arms of the cross must lead two things to happen: (1) The contrast between the on-axis effect and off-axis effect gradually diminishes; (2) movement of the objects about the mass center should show more and more obviously a pattern that is gravitationally governed by a point mass.  When this happening is in progress, we cannot ignore one fact that the angular velocity of the moving objects near the center is higher than that of those farther away from the center.  The higher and higher angular velocities of the materials toward the center gradually blur out any distinctive feature of a cross.   Instead, they just come together and present a rapidly spinning cloud. (figure \ref{fig:cameron07c}) 
+
+\begin{figure}\label{fig:cameron07a}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics{Paper1/Fig07a}}
+\caption{One arm of the cross is consisted of loose materials}
+\end{figure}
+
+\begin{figure}\label{fig:cameron07b}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics{Paper1/Fig07b}}
+\caption{All arms of the cross are consisted of loose materials}
+\end{figure}
+
+\begin{figure}\label{fig:cameron07c}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics{Paper1/Fig07c}}
+\caption{A rotating body consisting of rotation arms of loose materials}
+\end{figure}
+
+The problem is that, unless the cloud is absolutely homogeneous, given enough time, the spinning cloud will sooner or later evolve into a rotating bar.   The reason for the appearance of such a bar, ironically, is exactly because the gravity in this range is more and more dominantly governed by a point mass.  This point mass must be an extremely compacted and massive one if it is to stabilize the movement of so many objects traveling in orbits of short radius around it.    
+
+Let's suppose that some objects of more prominent mass inside a spinning and inhomogeneous cloud happen to have concentrated along a certain radial direction with respect to the mass center of the cloud, such as those shown along line OJ and OK in figure \ref{fig:cameron07d}.  Having so joined by a random chance, these groups would act together like certain bars to a certain extend.  So the newly formed bar, although a broken one, would exert their gravitational influence through the \textit{on\textemdash axis} effect onto those materials flying near the end of such bar.  Highly potentially, the flying objects are recruited by the bar.  Once so recruited, the newly joining material would contribute to beef up the gravity strength of the materials gathering of the bar and further escalated the bar's on-axis gravitational strength.   For those material groups like L and R, they are located at the area that the \textit{off\textemdash axis} effect of the bar is more obvious.  Depending on the angular velocity they already possess, they may slowly drift (with rotation movement about the cloud's center) either toward the center or away from the center.  To those drifting toward the center, their ever shortened rotation radius may accelerate them to plunge into the bar.  To those drifting away from the center, their ever lengthening rotating radius and thus decreasing angular velocity may just make them sooner or later be arrested by the bar's sweeping.  Either way, the bar is an unstoppable gravitational predator once so formed.  As to the bars OJ and OK, once they stabilize their predator position, the centrifugal force and their own on-axis effect exerted on each other will line them up on one straight line across the cloud's center.
+
+\begin{figure}\label{fig:cameron07d}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics{Paper1/Fig07d.png}}
+\caption{Higher concentration of materials on each side of the mass center may form  a bar of more pronounced gravity in its environment}
+\end{figure}
+
+When materials of a huge quantity were tossed together in the remotely old days, no one can ever expect that a solid gravity body with a shape of high regularity could have formed itself like what is presented as the cross in this article. When the materials of various sizes were so randomly thrown at each other, the momentum between them is impossible to be exactly canceling each other out.
+The vector sum of all the off-center residual momentum contributed by each material chunk then forces the entire gathering to rotate about the center of the overall material formation.  
+
+The same randomness must also prevent the appearance of absolute homogeneity of material distribution across the entire formation. At areas where more materials have come together, the seed of a future rotation arm is planted.  As shown in figure \ref{fig:cameron08}, blobs E, F, and G can all lure the formation of some rotation arms inside the big rotating formation.   
+\vspace{1em}
+
+
+
+\begin{figure}[h]\label{fig:cameron08}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics[width=7cm] {Paper1/Fig08}}
+\caption{Inhomogeneous mass distribution sows the seed for rotation arms to gradually get into shape}
+\end{figure}
+
+\begin{figure}[!]\label{fig:cameron09a}
+\centering
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics[width=14cm]{Fig09a}}
+\caption{All arms of the cross is consisted of loose materials}
+\end{figure}
+
+
+
+
+From a state shown in figure \ref{fig:cameron08} to a state shown in figure \ref{fig:cameron09a} for the nowadays galaxy of Milky Way, there is a long history of transition similar to what is illustrated in figure \ref{fig:cameron07c} and figure \ref{fig:cameron07d}.  Today, after the long history of transition, with a stable rotation that the Milky Way has evolved into, we can say that the Milky Way has two types of rotation arms:  the straight arms, such as what is shown as the Galactic Bar at the galaxy center, and the spiral arms, such as what are shown in areas outside where the Galactic Bar is sweeping.    Those objects get recruited as one of the members in the Bar may move with all kinds of orbit in different shape with respect to the dead center of the Bar, from lanky ellipses to near perfect circles.  Their orbital planes may even intersect at any angle with the galactic plane, from lying perfectly within the plane to being perpendicular to it.      
+
+The analysis of figure \ref{fig:cameron07c} and figure \ref{fig:cameron09a} would easily suggest to us that the spiral rotation arms may not be an unchanged establishment over time.   Somewhere there may be some material chunk that finds itself having entered a region with speed higher than necessary to balance the gravity field there and thus advanced to join the next arm.  On the contrary, some may find itself not flying with enough angular momentum to keep up with the peers around it and gradually lag behind and eventually fall into the arm that is coming after.  However, given the movement stability of the formation that has been established today, all these migrations can only happen in an extremely slow process.   It is this slow process that has introduced the formation of some minor spiral rotation arms in the Milky Way's rotation disk found in figure \ref{fig:cameron09a}.
+
+Figure \ref{fig:cameron09a} shows two major spiral arms for the entire Milky Way, one flowing out from each end of the rotating Galactic Bar.  Although two distinct bars are identified in the photo at the central region of the Milky Way, the close proximity between them allows us to consider them working as one.   It seems common among rotating galaxies that fundamentally two spiral arms are found for the entire galaxy, with one spiral to be dragged following each end of the rotation bar (figures \ref{fig:cameron09b}, \ref{fig:cameron09c}, \ref{fig:cameron09d}, \ref{fig:cameron09e}). In astronomical study, we may have also encountered many photos about rotating galaxy in which the feature of only two major spiral arms are not obvious although a single core is prominent.  Given enough time, they will eventually evolved into a galaxy that would have two major spiral arms with one bar connecting in between.
+
+\begin{figure}\label{fig:cameron09b}
+\adjustbox{trim={0} {.20\height} {0} {0},clip}%
+  {\includegraphics{Paper1/Fig09b}}
+\caption{Photo credit:  NASA.Gov}
+\end{figure}
+
+\begin{figure}\label{fig:cameron09c}
+\adjustbox{trim={0} {.30\height} {0} {0},clip}%
+  {\includegraphics{Paper1/Fig09c}}
+\caption{Photo Credit: NASA.Gov}
+\end{figure}
+
+\begin{figure}\label{fig:cameron09d}
+\adjustbox{trim={0} {.30\height} {0} {0},clip}%
+  {\includegraphics{Paper1/Fig09d}}
+\caption{Photo Credit:content.time.com}
+\end{figure}
+
+\begin{figure}\label{fig:cameron09e}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics{Paper1/Fig09e}}
+\caption{Typical feature of two rotation arms}
+\end{figure}
+
+\begin{figure}\label{fig:cameron09f}
+\adjustbox{trim={0} {.20\height} {0} {0},clip}%
+  {\includegraphics{Paper1/Fig09f}}
+\caption{Object A, B and C provide materials to extend a rotation arm; bodies similar to object d is the source for the formation of the Far 3KPC Arm and Near 3KPC Arm to form in the Milky Way}
+\end{figure}
+
+\begin{figure}\label{fig:cameron09g}
+\centering
+\adjustbox{trim={0} {.20\height} {0} {0},clip}%
+  {\includegraphics[width=14cm]{Fig09g.png}}
+\caption{caption}
+\end{figure}
+
+If we consider the on-axis effect, the phenomenon that one major spiral arm follows at each end of the rotation bar should appear highly natural.  As the bar rotates, somewhere along its long axis but farther away from the center there must begin to appear some  location where materials chunks, such as object A in figure \ref{fig:cameron09f}, cannot have enough angular momentum to catch up with the bar's angular advancement.  The centrifugal force disengages it a little from the bar.  As this happens, its angular movement must somewhat lag behind the bar's. However, the strong "extra" gravitational force because of the on-axis effect must continue to bind object A in a "controllable" distance. In some sense, object A taking its position is just as natural as some celestial body taking the Lagrangian point in some other gravitational system, although the cause is different.    Staying away from the bar with the same reason like A's, object B lags behind even more.  The more being away from the region of the on-axis effect for B means the more for it to be in the region where off-axis effect is pronounced.  However, the gravitational pull from A will not let go of B freely.   Object A and B would also work together to drag C along while C has been even further away from the end of the rotation bar.  This reaction continues so that a ribbon of materials are joining together to form a spiral formation following at the end of the bar.  The same also happens at the other end of the bar. 
+
+To the material chunks happening not at a close vicinity of the bar end, they would move away, waiting to be caught by the upcoming but extensively long spiral arms that is led by the other end of the bar, or just directly absorbed by the bar if its angular momentum is really so weak. Therefore, we cannot expect to have a spiral arms flowing out at the middle of the bar. Clearly shown in figure \ref{fig:cameron09a}, and similarly suggested in figures \ref{fig:cameron09b}, \ref{fig:cameron09c}, \ref{fig:cameron09d}, \ref{fig:cameron09e}, no spiral arm stems from the middle of the Bar of each picture. The Far 3kpc Arm and the Near 3kkpc Arm in figure \ref{fig:cameron09a} are formed by materials not having enough angular momentum and thus entering the off-axis effect region.  Object $d$ shown in figure \ref{fig:cameron09f} is an example for an object of such a group.    After entering the region where the off-axis effect dominants, object $d$ seems to have moved about a point mass but of less massive in substance.  If the bar's rotation period happens to synchronize well with the rotation period of $d$, $d$ will not sink into the bar.  The synchronization makes $d$ appear retaining an unvaried distance from the Bar.    Many objects with moving status like that of $d$ but slightly different from each other will form a ribbon spanning from end to end of the Bar just like what the Far 3kpc Arm and the Near 3kpc Arm show.  Since there is an off-effect region on each side of the Galactic Bar, it is why the Far 3kpc Arm and the Near 3kpc Arm must appear as a pair.    On the other hand, figure \ref{fig:cameron09a} does show that the on-axis effect has captured higher concentration of materials at each end of the Galactic Bar.
+
+Figure \ref{fig:cameron09g} is a duplicate of figure \ref{fig:cameron09a} but with the following modification: (1) the area between the 1 kpcs and 8 kpcs from the Galactic center is shaded green, while the area with a distance bigger than 10 kpcs is shaded yellow; (2) a yellow line is drawn along the long axis of the Galactic Bar, indicating the running direction of the strongest on-axis effect, while a purple line is drawn perpendicular to the Galactic Bar, indicating the running direction of the strongest off-axis effect.  In the unshaded area between the yellow and green areas are materials moving with "normal" speeds.  In the picture, given that materials near A-A are in an area where the off-axis effect dominates, they would have flown away if they had not carried a speed lower than "normal".  The reason that they did not fly away is because (1) their speed has been filtered to synchronize well with the rotation of the Galactic Bar during the long history of establishment of a rotating organization and (2) the gravitational interaction between chunks in the same arm just keeps extending their pulling on the materials further lagging behind, as shown in figure \ref{fig:cameron09f}.  On the other hand, the materials near A-A, with their lower than "normal" speed but higher population there, compensate somewhat the loss of gravitational pull to a certain extend along the purple line.  This compensation enables a stronger gravitational pull on the materials near the area of B-B, which otherwise may have flown away because of their higher than "normal" speed.  Their higher than "normal" speed is not something produced by the galaxy itself, but is a residual speed with which these materials survived the galaxy's overall pull in the old days. All these give us a reason why the blue line in figure \ref{fig:galaxy-rotation-curve} shows speeds lower than what the red line (prediction by Newton's law)  shows before the distance marked by the Sun but higher beginning from certain distance beyond the Sun. 
+
+\cnpsheading\subsection{Case 6: The Theoretical Impossibility for the Magellanic Clouds to Move on a Close Orbit about the Milky Way}
+
+Had the Magellanic Clouds ever been some satellites of the Milky Way, their current location and movement would only indicate that they have now been far away from the point called periapsis, which is the point for them to be the closest from the mass center of the Milky Way if they ever owned an elliptical orbit about the Milky Way.   
+
+The Milky Way disk can be considered as being composed of many bars like what is shown in figure \ref{fig:cameron10}. When a massive body, called A, moves near the bars, it must receive certain on-axis effect of gravity from each bar.   If A ever moves along an elliptical orbit about one bar, and the axis of the bar lies in the orbital plane, we have several situations as shown in figure \ref{fig:cameron11a}, \ref{fig:cameron11b} and \ref{fig:cameron11c}.  
+
+Comparison between figure \ref{fig:cameron11a}, \ref{fig:cameron11b} and \ref{fig:cameron11c} should lead us to visualize that figure \ref{fig:cameron11a} is the most probable situation to happen.   In Fig figure \ref{fig:cameron11a}, body A will receive the strongest gravitational force around the bar because of the on-axis effect when it migrates crossing the bar's axis, or at the point of periapsis.   Subsequently, body A has the highest speed here in the entire orbit.  
+
+The problem is that, when body A leaves the periapsis, it would enter a region where the off-axis is getting more and more prominent, thus the gravitational pull from the bar reduces more and more.  However, the angular momentum with which A survives the gravitational pull at the periapsis remains the same.  In other words, body A has more and more excessive momentum in responding to the gravitational pull of the bar after it leaves the periapsis.  Any excessive momentum thus resulted must derail A from the supposed close orbit; any moving object considered to be a satellite of something else must have a close orbit about this something else. 
+
+The Milky Way as an entirety can be regarded as a collection of bars laid side by side but within the galactic plane.   The on-axis effect of gravitational influence from each bar on the Magellanic Clouds is fundamentally the same, although the farther away a bar is from the galaxy center, the less prominent the on-axis effect would be.   As the Magellanic Clouds move to a location like what position F indicates in figure \ref{fig:cameron10}, the off-axis effect between it and each bar would have been quite pronounced, or the gravitational pull from the Milky Way would have been quite weak.   Then the only destination for the Clouds is to fly away from the Milky Way with their momentum that must become more and more excessive. 
+
+Therefore, we can claim with confidence that the Magellanic Clouds are visitors to the Milky Way only once in the Milky Way's life time, and in the Clouds' life time as well.  Given that the current speed of the Large Magellenic Cloud is \(378km /sec\) and the speed of the Small Cloud is \(302 km /sec\), if the universe (! its visible portion only!) has an age of 13.5 billion years, their birth place should have been no more than 17 million light years away from the current position, and about 100 times of the current distance between them and the Milky Way, provided that nothing has ever altered their movement during their entire journey, and that their journey had been a straight line. (A side-line question:  Will the Big Bang theory accept a universe with a radius as small as what is suggested by "100 times of the current distance between them and the Milky Way"?  But then the age of the Clouds must defy the conclusion on the total distance they have traveled: they are far younger than 13.5 billion years and unable to traveled so much distance.)
+\vspace{19em}
+
+\begin{figure}[!]\label{fig:cameron10}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics[width=7cm]{Paper1/Fig10}}
+\caption{At position E, object A receives on-axis gravitational effect from the Milky Way disk, while at position F, off-axis effect.}
+\end{figure}
+
+\begin{figure}[!]\label{fig:cameron10a}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics[width=7cm]{Paper1/Fig10a}}
+\caption{With respect to the Milky Way disk, the Magellanic Clouds are now at the off-axis position similar to what object A shows at F in figure \ref{fig:cameron10}. Therefore, flying away from the Milky Way seems their inevitable ultimate fate.   Picture credit: Richard Powell - http://www.atlasoftheuniverse.com per Wikipedia }
+\end{figure}
+
+\begin{figure}[!]\label{fig:cameron11a}
+\adjustbox{trim={0} {.15\height} {0} {0},clip}%
+  {\includegraphics[width=7cm]{Paper1/Fig11a}}
+\caption{Instead of a single bar, the bar in this picture can also represent the collection of bars shown in figure \ref{fig:cameron10} if the galactic plane there is viewed edge-on}
+\end{figure}
+
+\begin{figure}[!]\label{fig:cameron11b}
+\centering
+\adjustbox{trim={0} {.20\height} {0} {0},clip}%
+  {\includegraphics[width=7cm]{Paper1/Fig11b}}
+\caption{An orbit can hardly happen as shown because the periapsis is not found on the long axis of the ellipse}
+\end{figure}
+
+\begin{figure}[!]\label{fig:cameron11c}
+\centering
+\adjustbox{trim={0} {.16\height} {0} {0},clip}%
+  {\includegraphics[width=7cm]{Paper1/Fig11c}}
+\caption{This picture is highly impropable for the same reason presented in figure \ref{fig:cameron11b}}
+\end{figure}
+\vspace{19em}
+
+
+
+\bibliographystyle{aipproc}
+\begin{thebibliography}{7}
+
+\bibitem{Milky way}
+\emph{MILKY WAY}, Wikipedia, the Free Encyclopedia,
+2016.
+\vspace{1em}
+
+\bibitem{Classic physics}
+Isaac Newton, 
+\emph{MATHEMATICAL PRINCIPLES OF NATURAL PHILOSOPHY}
+\vspace{1em}
+
+\bibitem{Dark Matter}
+\emph{DARK MATTER},
+ Wikipedia, the Free Encyclopedia, 2016, 
+\vspace{1em}
+
+\bibitem{Law modification}
+\emph{Newton's law of universal gravitation,}, Wikipedia, the Free Encyclopedia, 2016
+\vspace{1em}
+
+\bibitem{Rebigsol1-Relativity}
+Cameron Rebigsol
+\emph{RELATIVITY IS SELF-DEFEATED (1 of 3)\textemdash in Terms of Mathematics}, 2016 Proceedings, John Chappell Natural Philosophy Society (www.naturalphilosophy.org)
+\vspace{1em}
+
+\bibitem{Rebigsol2-Relativity}
+Cameron Rebigsol
+\emph{RELATIVITY IS SELF-DEFEATED (2 of 3)\textemdash in Terms of Physical explanation}, 2016 Proceedings, John Chappell Natural Philosophy Society (www.naturalphilosophy.org)
+\vspace{1em}
+
+\bibitem{Rebigsol3-Relativity}
+Cameron Rebigsol
+\emph{RELATIVITY IS SELF-DEFEATED (3 of 3)\textemdash Lorentz Factor, Aberration, and Ether}, 2016 Proceedings, John Chappell Natural Philosophy Society (www.naturalphilosophy.org)
+\vspace{1em}
+
+\bibitem{magellanic-clouds.html}
+Harvard-Smithsonian Center for Astrophysics,  
+\emph{Magellanic Clouds May Be Just Passing Through},  http://phys.org/news/2007-01-magellanic-clouds.html, 2016
+\vspace{1em}
+
+\end{thebibliography}
+
+\end{document}
