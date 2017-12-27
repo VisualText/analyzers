@@ -53,7 +53,8 @@ addEquationName(L("name")) {
 		L("con") = makeconcept(G("equations"),L("name"));
 	}
 	G("equation") = G("equation") + 1;
-	addnumval(L("con"),"number",L("name"));
+	addnumval(L("con"),"number",G("equation"));
+	addstrval(L("con"),"name",L("name"));
 }
 
 addReference(L("name"),L("ref type"),L("type")) {
