@@ -43,6 +43,7 @@ _image <-
 	
 @POST
 X("label") = N("label full");
+addFigure(N("label name"));
 @RULES
 _xNIL <-
     _label	### (2)

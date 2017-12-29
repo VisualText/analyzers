@@ -37,11 +37,7 @@ addFigure(L("name")) {
 	G("fig count") = G("fig count") + 1;
 	
 	L("con") = findconcept(G("figures"),L("name"));
-	if (L("con")) {
-	}
-	else {
-		L("con") = makeconcept(G("figures"),L("name"));
-	}
+	if (!L("con")) makeconcept(G("figures"),L("name"));
 }
 
 addEquationName(L("name")) {
@@ -81,13 +77,19 @@ addCite(L("name")) {
 
 addBib(L("name"),L("body")) {
 	"bib.txt" << "addBib: " << L("name") << "\n";
+	"bib.txt" << "   body in: " << L("body") << "\n";
 	G("ref count") = G("ref count") + 1;
 	
 	L("con") = findconcept(G("bibliography"),L("name"));
 	if (!L("con")) {
 		L("con") = makeconcept(G("bibliography"),L("name"));
 	}
-	addstrval(L("con"),"body",L("body"));
+	else {
+	 	L("str") = strval(L("con"),"body");
+		L("body") = L("str") + " " + L("body");
+	}
+	"bib.txt" << "   body new: " << L("body") << "\n";
+	replaceval(L("con"),"body",L("body"));
 }
 
 getRefereceBody(L("name")) {

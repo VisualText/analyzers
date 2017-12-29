@@ -17,20 +17,24 @@ _IGNORE <-
     _xWILD				### (2)
     _beginAbs [lookahead]	### (3)
     @@
-	
+
 @POST
 singler(2,2);
 
 @RULES
 _IGNORE <-
-    _endAbs	### (1)
+    _endAbs			### (1)
+    _xWILD			### (2)
+    _beginFigure	### (3)
+    @@
+		
+@POST
+singler(2,2);
+
+@RULES
+_IGNORE <-
+    _endAbs		### (1)
     _xWILD		### (2)
     _section	### (3)
     @@
-	
-@RULES
-_FOOTER <-
-    _bibliography	### (1)
-    _xWILD			### (2)
-    _xEND			### (3)
-    @@
+

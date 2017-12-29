@@ -26,7 +26,7 @@ _xNIL <-
 "output.txt" << " ''";
 @RULES
 _xNIL <-
-    _italic	### (1)
+    _italics	### (1)
     @@
 		
 @POST
@@ -103,7 +103,8 @@ _xNIL <-
 
 @POST
 L("body") = getRefereceBody(N("cite"));
-"output.txt" << " <ref>" << L("body") << "</ref> ";
+#"output.txt" << " <ref>" << L("body") << "</ref> ";
+"output.txt" << " <ref>" << "moose" << "</ref> ";
 @RULES
 _xNIL <-
     _cite	### (1)
@@ -114,7 +115,7 @@ if (N("name")) {
 	L("con") = findEquation(N("name"));
 	L("equations") = findattr(L("con"),"equations");
 	if (L("equations")) L("value") = attrvals(L("equations"));
-	L("number") = getnumval(findvals(L("con"), "number"))
+	L("number") = getnumval(findvals(L("con"), "number"));
 	"equation.txt" << "Equ out num: " << L("number") << "\n";
 }
 		
@@ -123,9 +124,9 @@ if (N("full") || N("split")) {
 	while (L("value")) {
 		L("equ") = cleanEquation(getstrval(L("value")));
 		if (!L("first") && N("split"))
-			"output.txt" << "<math>" << L("equ") << "</math>";
+			"output.txt" << "<br><math>" << L("equ") << "</math>";
 		else
-			"output.txt" << "<math>(" << L("number") << ")\\ \\ " << L("equ") << "</math>";
+			"output.txt" << "<br><math>(" << L("number") << ")\\ \\ " << L("equ") << "</math>";
 		if (N("split")) "output.txt" << "<br>";
 		"output.txt" << "\n";
 		L("value") = nextval(L("value"));

@@ -9,6 +9,10 @@
 @NODES _ROOT
 
 @RULES
+_dash <-
+    \\ [s]		### (1)
+    textemdash	### (2)
+    @@
 
 @RULES
 _spacing <-
