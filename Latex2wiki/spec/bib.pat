@@ -6,7 +6,7 @@
 # MODIFIED:
 ###############################################
 
-@NODES _FOOTER
+@NODES _ROOT
 
 @RULES
 _bibBlock <-

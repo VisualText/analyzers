@@ -6,7 +6,7 @@
 # MODIFIED:
 ###############################################
 
-@NODES _ROOT
+@NODES _ROOT _IGNORE
 
 @POST
 S("type") = "figure";

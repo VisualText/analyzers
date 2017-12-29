@@ -6,21 +6,15 @@
 # MODIFIED:
 ###############################################
 
-@PATH _ROOT _FOOTER _bibBlock _bibBody
+@PATH _ROOT
 
 @POST
 S("ref") = N("ref",1);
-L("body") = transQuotes(N("$text",2),"emph","'''");
-L("body") = transQuotes(L("body"),"textit","''");
-"bib.txt" << "Body: " << L("body") << "\n";
-S("body") = L("body");
-addBib(N("ref",1),L("body"));
+"bib.txt" << "Ref: " << S("ref") << "\n";
 single();
 
 @RULES
-_bitItem <-
+_bibItem <-
     _bibRef					### (1)
-    _xWILD [fail=(_bibRef)]	### (2)
+    _xWILD [fail=(_bibRef _endBib)]	### (2)
     @@
-
-

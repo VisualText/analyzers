@@ -6,7 +6,7 @@
 # MODIFIED:
 ###############################################
 
-@PATH _ROOT _FOOTER _bibBlock _bibBody
+@NODES _ROOT
 
 @POST
 S("ref") = N("$text",4);
@@ -15,9 +15,9 @@ single();
 
 @RULES
 _bibRef <-
-    \\ [s]		### (1)
-    bibitem [s]	### (2)
-    \{ [s]		### (3)
-    _xWILD [s]	### (4)
-    \} [s]		### (5)
+    \\ [s]					### (1)
+    bibitem [s]				### (2)
+    \{ [s]					### (3)
+    _xWILD [s fails=(\})]	### (4)
+    \} [s]					### (5)
     @@
