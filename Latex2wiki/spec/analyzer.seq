@@ -5,6 +5,7 @@ pat	functions	# comment
 pat	blanklines	# comment
 pat	RemoveWhiteSpace	# comment
 pat	comments	# comment
+pat	parens	# comment
 pat	latextags	# comment
 pat	zones	# Copy of zones
 pat	lists	# comment
@@ -20,12 +21,11 @@ pat	equations4	# Copy of equations3
 pat	equations5	# comment
 pat	equations6	# comment
 pat	equLabels	# comment
-pat	formats	# comment
-pat	zaps	# comment
-pat	zaps2	# comment
-pat	bib	# comment
+rec	formats	# comment
 pat	bibItems	# comment
 pat	bigItemBlock	# comment
+pat	bitText	# comment
+pat	bibItem	# comment
 pat	text	# Copy of output
 pat	output	# comment
 pat	outputFooter	# comment
