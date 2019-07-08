@@ -1,0 +1,6 @@
+Printing from code region.
+Word con=abc
+/u/nlpsearch/apps/noop
+/u/nlpsearch/apps/noop/data/xxx.txt
+Found Linux system
+EMPTY RED

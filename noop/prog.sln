@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prog", "prog.vcproj", "{E861D983-6D0A-415A-A9FB-A32DF167D0AF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Unicode_Debug = Unicode_Debug
+		Unicode_Release = Unicode_Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E861D983-6D0A-415A-A9FB-A32DF167D0AF}.Debug.ActiveCfg = Debug|Win32
+		{E861D983-6D0A-415A-A9FB-A32DF167D0AF}.Debug.Build.0 = Debug|Win32
+		{E861D983-6D0A-415A-A9FB-A32DF167D0AF}.Release.ActiveCfg = Release|Win32
+		{E861D983-6D0A-415A-A9FB-A32DF167D0AF}.Release.Build.0 = Release|Win32
+		{E861D983-6D0A-415A-A9FB-A32DF167D0AF}.Unicode_Debug.ActiveCfg = Unicode_Debug|Win32
+		{E861D983-6D0A-415A-A9FB-A32DF167D0AF}.Unicode_Debug.Build.0 = Unicode_Debug|Win32
+		{E861D983-6D0A-415A-A9FB-A32DF167D0AF}.Unicode_Release.ActiveCfg = Unicode_Release|Win32
+		{E861D983-6D0A-415A-A9FB-A32DF167D0AF}.Unicode_Release.Build.0 = Unicode_Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
