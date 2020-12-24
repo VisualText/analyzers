@@ -1,2 +1,3 @@
-# analyzers
-Text Analyzers written in NLP++
+# NLP++ Example Analyzers
+
+Text Analyzers written in NLP++.
