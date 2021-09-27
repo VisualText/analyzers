@@ -1,3 +1,3 @@
 # NLP++ Example Analyzers
 
-Text Analyzers written in NLP++.
+These are the text analyzers that are bundled with the NLP-ENGINE.
