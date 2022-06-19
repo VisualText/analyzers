@@ -1,0 +1,18 @@
+###############################################
+# FILE: globals
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-6-17 13:9:50
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("persist") = findconcept(findroot(),"persist");
+if (!G("persist")) G("persist") = makeconcept(findroot(),"persist");
+
+G("counter") = IncrementCount(G("persist"),"count");
+
+G("file") = openfile(FileNameNumbered("outfile",5));
+
+@@CODE
