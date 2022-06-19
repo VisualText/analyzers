@@ -1,0 +1,13 @@
+###############################################
+# FILE: close
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-6-17 13:24:39
+# MODIFIED:
+###############################################
+
+@CODE
+
+closefile(G("file"));
+
+@@CODE

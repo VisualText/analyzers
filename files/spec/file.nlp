@@ -1,0 +1,17 @@
+###############################################
+# FILE: globals
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-6-17 13:9:50
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+G("file") << N("$text") << "\n";
+
+@RULES
+_xNIL <-	
+	_LINE
+	@@

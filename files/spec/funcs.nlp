@@ -1,0 +1,23 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-6-17 13:9:50
+# MODIFIED:
+###############################################
+
+@DECL
+
+FileNameNumbered(L("name"),L("zero count")) {
+	L("c") = 0;
+	L("stop") = L("zero count") - strlength(str(G("counter"))) + 1;
+	while (L("c") < L("stop")) {
+		L("zeroes") = L("zeroes") + "0";
+		L("c")++;
+	}
+	L("filename") = G("$apppath") + "/files/" + L("name") + L("zeroes") + str(G("counter")) + ".txt";
+	"debug.txt" << L("filename");
+	return L("filename");
+}
+
+@@DECL

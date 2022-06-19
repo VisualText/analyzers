@@ -1,0 +1,45 @@
+Three Puerto Rican Men Arrested on Federal Charges in Dish Network Services Piracy Scheme
+
+Friday, November 2, 2018
+
+On Nov. 2, a federal indictment against three Puerto Rican men was unsealed after their arrest for
+their roles in a conspiracy to provide pirated DISH Network (DISH) services to thousands of Puerto
+Ricans, announced Assistant Attorney General Brian A. Benczkowski of the Justice Department's
+Criminal Division and U.S. Attorney Rosa Emilia Rodriguez-Velez for the District of Puerto Rico. †
+DISH is a Colorado based company that provides satellite television to its customers for a fee and
+has invested heavily in measures to ensure that its services are not intercepted by copyright
+infringers, also known as pirates. †
+
+The three-count indictment charges Arnaldo Vazquez, 41, aka "Naldo,"ù aka "naldo.dish;"ù
+Awildo Jimenez, 36, aka "Wildo,"ù "joselo626,"ù and "wildo20;"ù and Higinio Lamboy, 46,
+aka "Ingi,"ù with one count of conspiracy to circumvent protective systems, infringe copyrights
+and traffic in satellite decryption devices, one substantive count of trafficking in technology
+designed to circumvent technology copyright protection systems and one substantive count of
+circumventing a technological measure that protects a copyrighted work. †
+
+The indictment describes Vazquez and Jimenez as owners and operators of a company that provided
+the pirated services to customers who paid a monthly cash fee to receive copyrighted content
+delivered from DISH satellites and identifies Lamboy as their salesman and repairman for the
+hardware that they provided to their customers. † The indictment further describes a complex
+scheme to steal the copyrighted content for financial gain through the interception of encrypted
+DISH signals that were distributed to paying DISH customers and decrypted through DISH-issued
+hardware. † For example, the indictment alleges that the defendants used DISH's network control
+words, or decrypted code, and placed them onto an Internet Key Sharing (IKS) server, which was
+under their control. † Placing the control words on the IKS server aided the decryption and
+distribution of the pirated content. † The defendants also provided their customers with receivers
+that were programmed with software that allowed them to bypass DISH's anti-piracy measures,
+which then allowed their customers to connect to the conspirators' bootleg IKS server to access
+the copyrighted content. †
+
+The indictment alleges that the defendants used online chat forums to discuss their criminal
+enterprise, resolve technical problems related to their DISH piracy, and facilitate the payment
+for their criminal deeds and purchase of equipment needed to further their scheme.
+
+An indictment is merely an allegation and all defendants are presumed innocent until proven guilty
+beyond a reasonable doubt in a court of law. †
+
+This case is the result of the investigative efforts of the FBI. † The case is being prosecuted by
+Senior Trial Attorney Kebharu Smith of the Criminal Division's Computer Crime and Intellectual
+Property Section (CCIPS) and Assistant U.S. Attorney Nicholas Cannon of the District of Puerto
+Rico.
+
