@@ -8,8 +8,14 @@ on:
 jobs:    
   zip-files:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "16.x"
+      - run: git submodule update --init --recursive
+
       - uses: papeloto/action-zip@v1
         with:
           files: corporate/ files/ noop/ parse-en-us/
@@ -18,12 +24,5 @@ jobs:
           
       - uses: actions/upload-artifact@v1
         with:
-          name: analyzers
+          name: analyzers.zip
           path: ${{ github.workspace }}/analyzers.zip
-          
-      - name: Release
-        uses: fnkr/github-action-ghr@v1
-        if: startsWith(github.ref, 'refs/tags/')
-        env:
-          GHR_PATH: analyzers.zip
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
