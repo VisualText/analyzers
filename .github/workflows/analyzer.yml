@@ -16,6 +16,7 @@ jobs:
           node-version: "16.x"
       - run: git submodule update --init --recursive
 
+      - uses: actions/checkout@v2
       - uses: papeloto/action-zip@v1
         with:
           files: corporate/ files/ noop/ parse-en-us/
@@ -24,5 +25,12 @@ jobs:
           
       - uses: actions/upload-artifact@v1
         with:
-          name: analyzers.zip
+          name: analyzers
           path: ${{ github.workspace }}/analyzers.zip
+          
+      - name: Release
+        uses: fnkr/github-action-ghr@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GHR_PATH: analyzers.zip
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
