@@ -12,9 +12,9 @@ NOTE: the "words" stubs in the analyzer sequence are from the first version of V
 
 This is an example of an analyzer that works over a directory of files with a persistent knowledge base. In this case, the knowledge is simply a counter. But this can serve as a basis for much more complex tasks where as texts are processed, knowledge can be used that persists between the processing of each file.
 
-## Noop Analyzer
+## NLP Tutorials
 
-This is just what it says: a noop analyzer.
+These are the NLP++ tutorial analyzers that accompany the [NLP++ tutorial videos](http://tutorials.visualtext.org) on the [NLP VisualText YouTube Channel](http://youtube.visualtext.org).
 
 ## Full English Parser
 
