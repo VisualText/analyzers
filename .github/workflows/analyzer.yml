@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: papeloto/action-zip@v1
         with:
-          files: corporate/ files/ parse-en-us/ nlp-analyzers/
+          files: corporate/ files/ parse-en-us/ nlp-tutorials/
           recursive: false
           dest: analyzers.zip
           
