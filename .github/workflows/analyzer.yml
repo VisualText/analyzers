@@ -6,7 +6,7 @@ on:
       - created
 
 jobs:    
-  sub-modules:
+  zip-files:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,17 +16,10 @@ jobs:
           node-version: "16.x"
       - run: git submodule update --init --recursive
 
-
-  zip-files:
-    needs: sub-modules
-    runs-on: ubuntu-latest
-
-    steps:
       - uses: actions/checkout@v2
       - uses: papeloto/action-zip@v1
         with:
-          files: corporate/ files/ nlp-tutorials/ parse-en-us/
-          recursive: false
+          files: corporate/ files/ parse-en-us/ nlp-tutorials/ 
           dest: analyzers.zip
 
       - uses: actions/upload-artifact@v1
