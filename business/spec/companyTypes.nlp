@@ -1,0 +1,21 @@
+###############################################
+# FILE: companyTypes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-22 8:45:13
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+	L("con") = N("names",1);
+	addstrval(L("con"),"type","company");
+	S("type") = "company";
+	pncopyvars(N(1));
+	single();
+@RULES
+_name <-
+	_name	### (1)
+	_companySuffix
+	@@
