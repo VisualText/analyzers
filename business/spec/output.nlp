@@ -1,0 +1,21 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-17 18:11:47
+# MODIFIED:
+###############################################
+
+@CODE
+
+sortchilds(G("caps"));
+DisplayKB(G("caps"),2);
+
+sortchilds(G("names"));
+DisplayKB(G("names"),2);
+
+DisplayKB(G("parse"),2);
+
+DisplayKB(G("verbs"),2);
+
+@@CODE
