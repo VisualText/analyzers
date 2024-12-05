@@ -1,0 +1,15 @@
+###############################################
+# FILE: compares
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-17 21:49:40
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST S("operator") = "total"; single();
+@RULES _operator <- a total of @@
+
+@POST S("operator") = ">"; single();
+@RULES _operator <- more than @@

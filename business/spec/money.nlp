@@ -1,0 +1,34 @@
+###############################################
+# FILE: money
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-17 20:40:20
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+S("value") = num(N("value",1)) * num(N("numeric",2));
+single();
+
+@RULES
+_money <-
+	_money			### (1)
+	_number			### (2)
+	_currency [opt]	### (3)
+	@@
+
+@RULES
+_asset <-
+	in [s]	### (1)
+	cash	### (2)
+	@@
+
+@RULES
+_asset <-
+	in [s]	### (1)
+	assumed	### (2)
+	debt	### (3)
+	@@
+		

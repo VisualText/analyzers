@@ -1,0 +1,19 @@
+###############################################
+# FILE: order
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-17 22:20:7
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+L("con") = AddOrder(N(1),X("sent",3));
+addstrval(L("con"),"text",N("$text"));
+pncopyvars(N(1),L("con"));
+
+@RULES
+_xNIL <-
+	_xWILD [one match=(_name _have _for _money _buy _acquire _date _anaphora _operator)]
+	@@
