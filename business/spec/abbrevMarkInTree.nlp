@@ -1,0 +1,20 @@
+###############################################
+# FILE: abbrevMarkInTree
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-22 9:2:16
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+	L("caps") = N("caps");
+	if (L("caps")) {
+		N("type") = strval(L("caps"),"type");
+	}
+
+@RULES
+_xNIL <-
+	_name	### (1)
+	@@
