@@ -1,0 +1,94 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-17 20:56:1
+# MODIFIED:
+###############################################
+
+@DECL
+
+Conjunction(L("conj node")) {
+    # Match before and after
+    L("prev") = pnprev(L("conj node"));
+    L("next") = pnnext(L("conj node"));
+    L("found") = 0;
+    if (pnname(L("prev")) == pnname(L("next"))) {
+        "conjoin.txt" << "===================\n" << pnvar(L("prev"),"$text") << " (" << pnname(L("next")) << ")\n";
+        "conjoin.txt" << pnvar(L("conj node"),"$text") << " (" << pnname(L("next")) << ")\n";
+        "conjoin.txt" << pnvar(L("next"),"$text") << " (" << pnname(L("next")) << ")\n";
+        pnmakevar(L("prev"),"conjoin",1);
+        pnmakevar(L("conj node"),"conjoin",1);
+        pnmakevar(L("next"),"conjoin",1);
+        L("found") = 1;
+    }
+
+    # CHECK FOR MORE
+    if (L("found")) {
+        L("next") = pnnext(L("next"));  
+        while (pnname(L("next")) == "_conj" || pnname(L("prev")) == pnname(L("next"))) {
+            "conjoin.txt" << pnvar(L("next"),"$text") << pnname(L("next")) << ")\n";
+            pnmakevar(L("next"),"conjoin",1);
+            L("next") = pnnext(L("next"));      
+        }
+    }
+}
+
+AddOrder(L("node"),L("sent")) {
+    L("name") = pnname(L("node"));
+    L("text") = pnvar(L("node"),"$text");
+    L("conname") = strpiece(L("name"),1,strlength(L("name"))-1);
+    L("con") = makeconcept(L("sent"),L("conname"));
+
+    # TAKE CARE OF CONJUNCTIONS
+    L("child") = pndown(L("node"));
+    while (L("child")) {
+        if (pnvar(L("child"),"conjoin") && pnname(L("child")) != "_conj") {
+            L("conj") = makeconcept(L("con"),PNtoConceptName(L("child")));
+            addstrval(L("conj"),"text",pnvar(L("child"),"$text"));
+            # if (pnvar(L("child"),"names")) {
+            #     addconval(L("conj"),"names",pnvar(L("child"),"names"));
+            # }
+            pncopyvars(L("child"),L("conj"));
+
+        } else if (pnvar(L("child"),"conjoined") && pnname(L("child")) != "_conj") {
+            L("conjoined") = pndown(L("child"));
+            while (L("conjoined")) {
+                if (pnvar(L("conjoined"),"conjoin") && pnname(L("conjoined")) != "_conj") {
+                    L("conj") = makeconcept(L("con"),PNtoConceptName(L("conjoined")));
+                    addstrval(L("conj"),"text",pnvar(L("conjoined"),"$text"));
+                    pncopyvars(L("conjoined"),L("conj"));
+                }
+                L("conjoined") = pnnext(L("conjoined"));
+            }
+
+        }
+        L("child") = pnnext(L("child"));
+    }
+    return L("con");
+}
+
+PNtoConceptName(L("node")) {
+    L("name") = pnname(L("node"));
+    L("name") = strpiece(L("name"),1,strlength(L("name"))-1);
+    return L("name");
+}
+
+GetAbbreviation(L("word")) {
+    "abbrev.txt" << L("word");
+    L("len") = strlength(L("word"));
+    L("i") = 0;
+    while (L("i") < L("len")) {
+        L("c") = strpiece(L("word"),L("i"),L("i"));
+        "abbrev.txt" << " " << L("c");
+        if (L("last c") == " " || L("i") == 0) {
+            L("abbrev") = L("abbrev") + L("c");
+        }
+        L("last c") = L("c");
+        L("i")++;
+    }
+    "abbrev.txt" << "\n  ==> " << L("abbrev") << "\n";
+    return L("abbrev");
+}
+
+@@DECL

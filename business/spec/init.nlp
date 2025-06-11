@@ -1,0 +1,16 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-17 18:9:10
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("parse") = getconcept(findroot(),"parse");
+G("verbs") = getconcept(findroot(),"verbs");
+G("caps") = getconcept(findroot(),"caps");
+G("names") = getconcept(findroot(),"names");
+
+@@CODE

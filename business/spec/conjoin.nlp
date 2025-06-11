@@ -1,0 +1,21 @@
+###############################################
+# FILE: conjion
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-22 7:43:28
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@PRE
+	<1,1> var("conjoin");
+
+@POST
+	L("node") = group(1,1,pnname(N(1)));
+	pnmakevar(L("node"),"conjoined",1);
+
+@RULES
+_xNIL <-
+	_xWILD [plus]
+	@@

@@ -1,0 +1,18 @@
+###############################################
+# FILE: for
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-22 7:35:17
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+	pncopyvars(N(2));
+	single();
+@RULES
+_for <-
+	_for	### (1)
+	_money	### (2)
+	@@

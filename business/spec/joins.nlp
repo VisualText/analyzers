@@ -1,0 +1,49 @@
+###############################################
+# FILE: joins
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-17 18:14:8
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_companySuffix <-
+	_xWILD [one match=(inc llc)]	### (1)
+	\.								### (2)
+	@@
+		
+@RULES
+_number <-
+	no	### (1)
+	\.	### (2)
+	@@
+		
+@RULES
+_paragraphSeparator <-
+    \n [s min=2 max=0]	### (1)
+    @@
+
+@POST
+	L("tmp") = N("$text",2) + "." + N("$text",4);
+	S("value") = flt(L("tmp"));
+	single();
+@RULES		
+_money <-
+	_xWILD [s one matches=(\$)]			### (1)
+	_xNUM [s]							### (2)
+	_xWILD [s one matches=( \. \, )]	### (3)
+	_xNUM [s]							### (4)
+    @@
+
+@POST
+	S("value") = num(N("$text"));
+	single();
+@RULES		
+_money <-
+	_xWILD [s one matches=(\$)]	### (1)
+	_xNUM [s]					### (2)
+    @@
+
+@RULES _conj <- \, @@
