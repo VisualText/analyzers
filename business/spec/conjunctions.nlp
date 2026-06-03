@@ -1,0 +1,17 @@
+###############################################
+# FILE: nameTypes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-22 7:43:28
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@PRE
+	<1,1> varz("conjoin");
+	
+@RULES
+_conj <-
+	_xWILD [min=2 match=(_conj)]
+	@@

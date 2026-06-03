@@ -1,0 +1,25 @@
+###############################################
+# FILE: sentences.pat
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 22/Apr/20 18:24:07
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+    S("sent") = MakeCountCon(G("parse"),"sentence");
+    addstrval(S("sent"),"text",N("$text",1));
+    single();
+
+@RULES
+
+_sentence [unsealed] <-
+    _xWILD [s plus fails=(\. \? \! _paragraphSeparator)]	### (1)
+    _xWILD [s one matches=(\. \? \!)] ### (2)
+    @@
+
+_sentence [unsealed] <-
+    _xWILD [s plus fails=(_paragraphSeparator)]	### (1)
+    @@

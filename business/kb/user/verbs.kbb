@@ -1,0 +1,17 @@
+verbs
+  regular
+    type1
+      buy
+        name: label="company 1"
+        have
+        verb: sem=action, tense=pastpart
+        name: label="company 2"
+        for: label=amount
+    type2
+      buy
+        name: sem=actor
+        verb: sem=action, tense=past
+        name: sem=object
+      amount
+        for
+        money

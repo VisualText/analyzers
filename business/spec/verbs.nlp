@@ -1,0 +1,13 @@
+###############################################
+# FILE: verbs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-21 19:27:50
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("kb") = getconcept(findroot(),"kb");
+
+@@CODE

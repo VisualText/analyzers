@@ -1,0 +1,17 @@
+###############################################
+# FILE: conjunctionFind
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-22 7:43:28
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+	Conjunction(N(1));
+
+@RULES
+_xNIL <-
+	_conj	### (1)
+	@@

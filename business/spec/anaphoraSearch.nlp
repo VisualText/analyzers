@@ -1,0 +1,24 @@
+###############################################
+# FILE: anaphoraSearch
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-21 19:9:47
+# MODIFIED:
+###############################################
+
+@CODE
+
+L("sent") = down(G("parse"));
+
+while (L("sent")) {
+    L("con") = down(G("sent"));
+    while (L("con")) {
+        if (conceptname(L("con")) == "anaphora") {
+        }
+        L("con") = next(L("con"));
+    }
+    }
+    L("sent") = next(L("sent"));
+}
+
+@@CODE

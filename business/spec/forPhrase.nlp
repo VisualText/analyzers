@@ -1,0 +1,16 @@
+###############################################
+# FILE: money
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-17 20:40:20
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@RULES
+_for <-
+	for				### (1)
+	_operator [opt]	### (2)
+	_money			### (3)
+	@@

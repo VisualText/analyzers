@@ -1,0 +1,100 @@
+for s=for
+ceo s=title abbrev="chief executive officer"
+president s=title
+
+dollar s=currency country=usa
+dollars s=currency country=usa
+
+it s=pro
+he s=pro
+she s=pro
+its s=pro
+all s=pro
+they s=pro
+them s=pro
+those s=pro
+
+as s=prep
+at s=prep
+in s=prep
+of s=prep
+with s=prep
+into s=prep
+
+is s=be
+be s=be
+are s=be
+was s=be
+were s=be
+
+a s=det
+the s=det
+an s=det
+some s=det
+this s=det
+these s=det
+
+and s=conj
+or s=conj
+
+have s=have
+has s=have
+had s=have
+offer s=have
+offers s=have
+offered s=have
+include s=have
+includes s=have
+
+could s=conditional
+can s=conditional
+should s=conditional
+
+that s=that
+which s=that
+
+to s=to
+
+only s=special
+when s=special
+so s=special
+whenever s=special
+whatever s=special
+
+up s=direction
+down s=direction
+steady s=direction
+
+found s=found
+founds s=found
+founded s=found
+founding s=found
+
+defend s=defend
+defends s=defend
+defended s=defend
+defending s=defend
+
+last s=adj
+latest s=adj
+
+substantially s=adv
+
+above s=position
+below s=position
+
+area s=field
+field s=field
+
+acquire s=acquire pos=verb
+acquires s=acquire pos=verb
+acquired s=acquire pos=verb
+acquiring s=acquire pos=verb
+
+purchase s=buyEvent
+sale s=buyEvent
+
+buy s=buy pos=verb
+buys s=buy pos=verb
+bought s=buy pos=verb
+bought s=buy pos=pastpart

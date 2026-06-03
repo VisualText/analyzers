@@ -1,0 +1,21 @@
+###############################################
+# FILE: nameTypes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-22 7:43:28
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _paragraph _sentence
+
+@POST
+	L("con") = N("names",1);
+	addstrval(L("con"),"type","person");
+	S("type") = "person";
+	single();
+@RULES
+_name <-
+	_name	### (1)
+	_conj	### (2)
+	_title	### (3)
+	@@
