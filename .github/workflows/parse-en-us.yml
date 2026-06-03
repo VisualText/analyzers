@@ -1,0 +1,112 @@
+# Install at: VisualText/analyzers  ->  .github/workflows/update-parse-en-us.yml
+#
+# Mirrors visualtext-files/.github/workflows/update-parse-en-us.yml: a manual
+# (workflow_dispatch) "pull the submodule, version-bump, tag, release" job.
+# The release asset is built and attached IN THIS JOB on purpose: a release
+# created with the default GITHUB_TOKEN does NOT fire the `release: created`
+# event, so the separate Attach-Released-Assets workflow (analyzer.yml) would
+# never run for an auto-release (same issue visualtext-files PR #153 fixed).
+#
+# To track the other submodules too (nlp-tutorials, nlpfix-analyzers), copy
+# this file and change the SUBMODULE path below.
+
+name: Update parse-en-us and release
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: 'Version bump type'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+permissions:
+  contents: write
+
+env:
+  SUBMODULE: parse-en-us
+
+jobs:
+  update-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull latest ${{ env.SUBMODULE }}
+        id: update
+        run: |
+          git -C "$SUBMODULE" fetch origin
+          DEFAULT_BRANCH=$(git -C "$SUBMODULE" remote show origin | awk '/HEAD branch/ {print $NF}')
+          OLD_SHA=$(git -C "$SUBMODULE" rev-parse --short HEAD)
+          git -C "$SUBMODULE" checkout "$DEFAULT_BRANCH"
+          git -C "$SUBMODULE" pull origin "$DEFAULT_BRANCH"
+          NEW_SHA=$(git -C "$SUBMODULE" rev-parse --short HEAD)
+          echo "old_sha=$OLD_SHA" >> "$GITHUB_OUTPUT"
+          echo "new_sha=$NEW_SHA" >> "$GITHUB_OUTPUT"
+          if [ "$OLD_SHA" = "$NEW_SHA" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Compute next version
+        if: steps.update.outputs.changed == 'true'
+        id: version
+        run: |
+          LATEST=$(git tag --sort=-v:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n1)
+          LATEST=${LATEST:-v0.0.0}
+          VER=${LATEST#v}
+          IFS='.' read -r MAJ MIN PAT <<< "$VER"
+          case "${{ inputs.bump }}" in
+            major) MAJ=$((MAJ+1)); MIN=0; PAT=0 ;;
+            minor) MIN=$((MIN+1)); PAT=0 ;;
+            patch) PAT=$((PAT+1)) ;;
+          esac
+          NEW="v$MAJ.$MIN.$PAT"
+          echo "tag=$NEW" >> "$GITHUB_OUTPUT"
+          echo "Next version: $NEW (previous: $LATEST)"
+
+      - name: Commit and tag
+        if: steps.update.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$SUBMODULE"
+          git commit -m "${{ steps.version.outputs.tag }} ${SUBMODULE} updated (${{ steps.update.outputs.old_sha }} -> ${{ steps.update.outputs.new_sha }})"
+          git tag "${{ steps.version.outputs.tag }}"
+          git push
+          git push origin "${{ steps.version.outputs.tag }}"
+
+      # Build + attach the release asset in-job (see header note re: GITHUB_TOKEN).
+      - name: Build analyzers.zip
+        if: steps.update.outputs.changed == 'true'
+        uses: papeloto/action-zip@v1
+        with:
+          files: corporate/ files/ parse-en-us/ nlp-tutorials/ nlpfix-analyzers/
+          recursive: false
+          dest: analyzers.zip
+
+      - name: Create GitHub Release
+        if: steps.update.outputs.changed == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: ${{ steps.version.outputs.tag }}
+          files: analyzers.zip
+          body: |
+            ${{ env.SUBMODULE }} updated
+
+            Submodule bumped from `${{ steps.update.outputs.old_sha }}` to `${{ steps.update.outputs.new_sha }}`.
+
+      - name: Nothing to do
+        if: steps.update.outputs.changed == 'false'
+        run: echo "${SUBMODULE} already up to date — no release created."
