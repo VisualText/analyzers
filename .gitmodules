@@ -1,9 +1,12 @@
 [submodule "parse-en-us"]
 	path = parse-en-us
 	url = https://github.com/VisualText/parse-en-us.git
+	branch = main
 [submodule "nlp-tutorials"]
 	path = nlp-tutorials
 	url = https://github.com/VisualText/nlp-tutorials.git
+	branch = main
 [submodule "nlpfix-analyzers"]
 	path = nlpfix-analyzers
 	url = https://github.com/VisualText/nlpfix-analyzers.git
+	branch = main
