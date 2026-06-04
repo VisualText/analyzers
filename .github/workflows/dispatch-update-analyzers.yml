@@ -1,0 +1,35 @@
+# Install at: VisualText/analyzers -> .github/workflows/dispatch-update-analyzers.yml
+#
+# Covers the HUMAN-tagged analyzers release path: when someone pushes a `v*` tag
+# to analyzers directly (i.e. NOT via the auto-bump in parse-en-us.yml), ping
+# nlp-engine (event-type analyzers-release) so it opens an analyzers-submodule
+# bump PR.
+#
+# The AUTOMATED path is handled separately: analyzers/parse-en-us.yml pings
+# nlp-engine directly at the end of its bump job. That job pushes its tag with
+# GITHUB_TOKEN, which by GitHub design does NOT trigger this workflow — so the
+# two paths do not double-fire. Even if they ever did, nlp-engine's
+# update-analyzers.yml just opens/updates a single PR (idempotent), so it's safe.
+#
+# Requires the shared `CLASSIC_PAT` secret (already present in this repo).
+
+name: Dispatch update-analyzers
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping nlp-engine
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.CLASSIC_PAT }}
+          repository: VisualText/nlp-engine
+          event-type: analyzers-release
+          client-payload: '{"tag_name": "${{ github.ref_name }}"}'
+        continue-on-error: true
