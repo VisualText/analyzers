@@ -65,3 +65,9 @@ Releases are produced automatically by [.github/workflows/analyzer.yml](.github/
 - **YouTube channel:** [youtube.visualtext.org](http://youtube.visualtext.org)
 - **NLP-ENGINE source:** [github.com/VisualText/nlp-engine](https://github.com/VisualText/nlp-engine)
 - **VSCode extension:** [github.com/VisualText/vscode-nlp](https://github.com/VisualText/vscode-nlp)
+
+## Cross-repo release automation
+
+This repo participates in the VisualText cross-repo release "percolation"
+system: submodule bumps flow downstream automatically via `repository_dispatch`.
+See **[nlp-engine/docs/PERCOLATION.md](https://github.com/VisualText/nlp-engine/blob/master/docs/PERCOLATION.md)** for the full map.
