@@ -1,30 +1,30 @@
 tokenize	nil	# Gen:   Convert input to token list.
-nlp	KBFuncs	# comment
-nlp	initKB	# comment
-nlp	join	# Copy of join
-nlp	sentences	# comment here
-nlp	paragraphs	# comment here
-nlp	removeWhite	# comment here
-stub	words	# comment
-nlp	city	# RUG file!
-nlp	company	# RUG file!
-nlp	state	# RUG file!
-end	words	# comment
-nlp	lookup	# comment
-nlp	vocabulary	# comment
-nlp	phrases	# Copy of vocabulary
-nlp	money	# comment here
-nlp	moneyAttributes	# Copy of money
-nlp	conjMoney	# Copy of conjCompany
-nlp	companies	# comment here
-nlp	companyAttributes	# Copy of companies
-nlp	companyDet	# Copy of companyAttributes
-nlp	anaphora	# comment here
-nlp	anaphoraCompany	# Copy of anaphora
-nlp	conjCompany	# comment
-nlp	events	# Copy of phrases
-nlp	eventAttributes	# Copy of events
-nlp	anaphoraEvent	# Copy of anaphoraCompany
-nlp	events2	# Copy of events
-nlp	output	# comment
-nlp	kbOutput	# comment
+nlp	KBFuncs	# Declare the knowledge base display and dump functions
+nlp	initKB	# Create the corporate, parse, and companies concepts and seed the known companies
+nlp	join	# Join numbers, years, and quoted text into single nodes
+nlp	sentences	# Cut the text into sentences and make a concept for each one
+nlp	paragraphs	# Gather the sentences into paragraphs
+nlp	removeWhite	# Remove the white space tokens inside each sentence
+stub	words	# Start of the automatically generated word lookup passes
+nlp	city	# Automatically generated rules matching the known city names
+nlp	company	# Automatically generated rules matching the known company names
+nlp	state	# Automatically generated rules matching the known state names
+end	words	# End of the automatically generated word lookup passes
+nlp	lookup	# Look each capitalized phrase up in the companies knowledge base
+nlp	vocabulary	# Recognize the closed-class vocabulary: pronouns, prepositions, determiners, and the like
+nlp	phrases	# Recognize the domain phrases: officers, money types, and commentors
+nlp	money	# Recognize monetary amounts and compute their value
+nlp	moneyAttributes	# Attach the type of a monetary amount, as in in assumed debt or a share
+nlp	conjMoney	# Join conjoined monetary amounts into a single money node
+nlp	companies	# Add each company named in a sentence to the knowledge base
+nlp	companyAttributes	# Attach the officers and markers that go with a company name
+nlp	companyDet	# Absorb a determiner in front of a company name
+nlp	anaphora	# Mark the pronouns and definite phrases that refer back to something
+nlp	anaphoraCompany	# Resolve a company anaphor back to the last company mentioned
+nlp	conjCompany	# Join conjoined company names into a single company node
+nlp	events	# Recognize the corporate events: stock moves and acquisitions
+nlp	eventAttributes	# Attach the date and other attributes to an event
+nlp	anaphoraEvent	# Resolve an event anaphor back to the last event with the same action
+nlp	events2	# Recognize the events built on an event anaphor, such as analyst comments
+nlp	output	# Write the companies and events found in each sentence out as a readable report
+nlp	kbOutput	# Display the parse, companies, and corporate knowledge bases
