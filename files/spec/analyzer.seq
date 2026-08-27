@@ -1,7 +1,7 @@
 tokenize	nil	# Gen:   Convert input to token list
-nlp	KBFuncs	# comment
-nlp	funcs	# comment
-nlp	globals	# comment
-nlp	Lines	# comment
-nlp	file	# comment
-nlp	close	# comment
+nlp	KBFuncs	# Declare the knowledge base display and dump functions
+nlp	funcs	# Declare FileNameNumbered, which builds a zero-padded output file name
+nlp	globals	# Bump the persistent counter and open the numbered output file
+nlp	Lines	# Gather the text into lines, blank lines included
+nlp	file	# Write each line out to the numbered output file
+nlp	close	# Close the numbered output file
