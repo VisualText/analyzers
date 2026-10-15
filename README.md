@@ -4,11 +4,10 @@ This repository contains the text analyzers that are bundled with the [NLP-ENGIN
 
 ## Repository Layout
 
-The repository is a small wrapper around several analyzer projects. Two analyzers live directly in this repo, and three more are pulled in as git submodules:
+The repository is a small wrapper around several analyzer projects. One analyzer lives directly in this repo, and three more are pulled in as git submodules:
 
 | Path | Type | Purpose |
 | --- | --- | --- |
-| [corporate/](corporate/) | local | Showcase analyzer that extracts companies, money, and events from text |
 | [files/](files/) | local | Example of processing a directory of files with a persistent knowledge base |
 | [parse-en-us/](parse-en-us/) | submodule | Full syntactic parser for US English |
 | [nlp-tutorials/](nlp-tutorials/) | submodule | Companion analyzers for the NLP++ video tutorial series |
@@ -23,14 +22,6 @@ git clone --recurse-submodules https://github.com/VisualText/analyzers.git
 ```
 
 ## Analyzers
-
-### Corporate
-
-[corporate/](corporate/) is a showcase analyzer that highlights the power of NLP++ and its knowledge base. It walks through a typical extraction pipeline — tokenization, sentence and paragraph segmentation, vocabulary lookup, phrase recognition, money and company detection, conjunction handling, anaphora (pronoun) resolution, and event extraction — and outputs structured information to the knowledge base. The full pass sequence is defined in [corporate/spec/analyzer.seq](corporate/spec/analyzer.seq).
-
-It is not meant to be exhaustive; it exists to illustrate what NLP++ can do when rules, dictionaries, and a knowledge base work together.
-
-> **Note:** the `words` stubs in the analyzer sequence are a holdover from the first version of VisualText, which auto-generated rules from examples. That feature is not currently available in the VSCode version of VisualText.
 
 ### Files
 
@@ -56,7 +47,7 @@ It is recommended as a starting template whenever an analyzer needs full English
 
 ## Building & Releases
 
-Releases are produced automatically by [.github/workflows/analyzer.yml](.github/workflows/analyzer.yml). When a GitHub release is created, the workflow checks out the repository, initializes submodules, zips the five analyzer directories (`corporate/`, `files/`, `parse-en-us/`, `nlp-tutorials/`, `nlpfix-analyzers/`) into `analyzers.zip`, and attaches the archive to the release. The resulting bundle is what VisualText downloads as its set of example analyzers.
+Releases are produced automatically by [.github/workflows/analyzer.yml](.github/workflows/analyzer.yml). When a GitHub release is created, the workflow checks out the repository, initializes submodules, zips the four analyzer directories (`files/`, `parse-en-us/`, `nlp-tutorials/`, `nlpfix-analyzers/`) into `analyzers.zip`, and attaches the archive to the release. The resulting bundle is what VisualText downloads as its set of example analyzers.
 
 ## Learning NLP++
 

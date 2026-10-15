@@ -103,7 +103,7 @@ jobs:
         if: steps.update.outputs.changed == 'true'
         uses: papeloto/action-zip@v1
         with:
-          files: corporate/ files/ parse-en-us/ nlp-tutorials/ nlpfix-analyzers/
+          files: files/ parse-en-us/ nlp-tutorials/ nlpfix-analyzers/
           recursive: false
           dest: analyzers.zip
 
